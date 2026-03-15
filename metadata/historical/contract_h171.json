@@ -1,0 +1,37 @@
+{
+  "contract_id": "0x7b92335f3515349e54decc5fdf6e9ef44f5f5447",
+  "collection_source": "historical_attack_pattern",
+  "compiler_version": "0.8.17",
+  "solidity_version": "^0.8.17",
+  "optimization_enabled": false,
+  "optimization_runs": 500,
+  "protocol_type": "Insurance",
+  "protocol_name": "CoverDAO",
+  "total_value_locked_usd": 1643161,
+  "deployment_date": "2019-09-22",
+  "audit_status": "Quantstamp_2021",
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2021-02-22",
+    "exploit_value_usd": 867680,
+    "exploit_tx": "0xce56451ef00c707ce4abdf958ccef8c994694c672c8d4ecc1c641f49e798cc2e"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "block_timestamp_manipulation",
+      "severity": "medium",
+      "confidence": 0.9,
+      "line_numbers": [
+        41,
+        86
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

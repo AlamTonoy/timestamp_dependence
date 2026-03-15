@@ -1,0 +1,37 @@
+{
+  "contract_id": "0x59917fff78e23e74ebd8c12c696d6b176e980265",
+  "collection_source": "historical_attack_pattern",
+  "compiler_version": "0.4.24",
+  "solidity_version": "^0.4.24",
+  "optimization_enabled": false,
+  "optimization_runs": 500,
+  "protocol_type": "Options",
+  "protocol_name": "OpynFork",
+  "total_value_locked_usd": 3438780,
+  "deployment_date": "2019-07-08",
+  "audit_status": "OpenZeppelin_2021",
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2023-05-11",
+    "exploit_value_usd": 2972945,
+    "exploit_tx": "0x2cc77baee550ff5c31ab60cf8ef18870cc681aefdb66d23e73c8d1219e82e75d"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "deadline_bypass",
+      "severity": "high",
+      "confidence": 0.94,
+      "line_numbers": [
+        19,
+        67
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

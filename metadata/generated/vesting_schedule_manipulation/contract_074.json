@@ -1,0 +1,37 @@
+{
+  "contract_id": "0xfa0ee31b82959d1f8a13355e55b2b681dc15f336",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.8.10",
+  "solidity_version": "^0.8.10",
+  "optimization_enabled": false,
+  "optimization_runs": 200,
+  "protocol_type": "Vault",
+  "protocol_name": "GammaTreasury",
+  "total_value_locked_usd": 25878088,
+  "deployment_date": "2024-05-27",
+  "audit_status": "Trail_of_Bits_2024",
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2024-08-03",
+    "exploit_value_usd": 4705948,
+    "exploit_tx": "0x82239152b9b3a19b4e2113b187dacd934e9845fcdf5a15ad3dac2b33f4c58fb7"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "vesting_schedule_manipulation",
+      "severity": "high",
+      "confidence": 0.86,
+      "line_numbers": [
+        45,
+        60
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

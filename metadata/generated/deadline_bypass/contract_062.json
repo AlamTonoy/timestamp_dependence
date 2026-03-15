@@ -1,0 +1,37 @@
+{
+  "contract_id": "0x86195b5164baf76ab8807eb661bd2dc4d6a4ed9e",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.8.19",
+  "solidity_version": "^0.8.19",
+  "optimization_enabled": false,
+  "optimization_runs": 200,
+  "protocol_type": "Bridge",
+  "protocol_name": "GammaPortal",
+  "total_value_locked_usd": 22312188,
+  "deployment_date": "2020-10-04",
+  "audit_status": "Trail_of_Bits_2024",
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2021-09-21",
+    "exploit_value_usd": 266179,
+    "exploit_tx": "0x9ba4abfc5b4aebbe83f1f02a62896487e10e8bf9da35899cc3c81f1f8e28b2c2"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "deadline_bypass",
+      "severity": "high",
+      "confidence": 0.85,
+      "line_numbers": [
+        62,
+        81
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

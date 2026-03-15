@@ -1,0 +1,38 @@
+{
+  "contract_id": "0xa6dee94c1e385dfb77626b2a5c97d82efb4b5f4f",
+  "collection_source": "historical_attack_pattern",
+  "compiler_version": "0.6.12",
+  "solidity_version": "^0.6.12",
+  "optimization_enabled": false,
+  "optimization_runs": 200,
+  "protocol_type": "Vault",
+  "protocol_name": "EthVault",
+  "total_value_locked_usd": 61648,
+  "deployment_date": "2018-05-16",
+  "audit_status": "Peckshield_2022",
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2024-03-26",
+    "exploit_value_usd": 1,
+    "exploit_tx": "0xfc11c41e450478605aee94fc85f7a76925d0d2b85001839a4dbea49b8250a77d"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "timestamp_overflow",
+      "severity": "low",
+      "confidence": 0.95,
+      "line_numbers": [
+        10,
+        69
+      ],
+      "cwe": [
+        "CWE-190"
+      ],
+      "swc": [
+        "SWC-101",
+        "SWC-116"
+      ]
+    }
+  }
+}

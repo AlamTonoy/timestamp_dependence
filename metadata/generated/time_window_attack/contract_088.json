@@ -1,0 +1,34 @@
+{
+  "contract_id": "0xf89a142c74e86eb354d437c23a3bf74892a7455f",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.8.20",
+  "solidity_version": "^0.8.20",
+  "optimization_enabled": true,
+  "optimization_runs": 1000,
+  "protocol_type": "Insurance",
+  "protocol_name": "GammaCover",
+  "total_value_locked_usd": 27746028,
+  "deployment_date": "2021-05-07",
+  "audit_status": "Certik_2023",
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "time_window_attack",
+      "severity": "medium",
+      "confidence": 0.9,
+      "line_numbers": [
+        34,
+        40
+      ],
+      "cwe": [
+        "CWE-362"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "contract_id": "0x905023a186d80bf86b4f861732b714d81991aebf",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.7.6",
+  "solidity_version": "^0.7.6",
+  "optimization_enabled": true,
+  "optimization_runs": 1000,
+  "protocol_type": "Bridge",
+  "protocol_name": "DeltaBridge",
+  "total_value_locked_usd": 37046401,
+  "deployment_date": "2024-08-13",
+  "audit_status": "Peckshield_2024",
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "miner_scheduled_execution",
+      "severity": "medium",
+      "confidence": 0.93,
+      "line_numbers": [
+        64,
+        72
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

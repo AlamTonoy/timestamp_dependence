@@ -1,0 +1,37 @@
+{
+  "contract_id": "0xa6736602b01e6877eab02fedc1ec7f5713b15d6f",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.6.12",
+  "solidity_version": "^0.6.12",
+  "optimization_enabled": true,
+  "optimization_runs": 1000,
+  "protocol_type": "Insurance",
+  "protocol_name": "GammaGuard",
+  "total_value_locked_usd": 34702883,
+  "deployment_date": "2022-11-16",
+  "audit_status": "Trail_of_Bits_2023",
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2024-05-12",
+    "exploit_value_usd": 1123892,
+    "exploit_tx": "0x32dc6dd51b8b23ba5cc1b6f1c89f31563ca90a7d56dd035fa3a1b50383d52e1c"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "block_number_manipulation",
+      "severity": "medium",
+      "confidence": 0.99,
+      "line_numbers": [
+        19,
+        37
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "contract_id": "0x6a22b1694a65c7bd8fcac33a511174a018fc899b",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.8.17",
+  "solidity_version": "^0.8.17",
+  "optimization_enabled": false,
+  "optimization_runs": 500,
+  "protocol_type": "AMM",
+  "protocol_name": "BetaPool",
+  "total_value_locked_usd": 48544822,
+  "deployment_date": "2020-10-08",
+  "audit_status": null,
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2021-05-29",
+    "exploit_value_usd": 2329287,
+    "exploit_tx": "0x68bdc883c990db6a66c75e9417fce772655de6cfea9166bb5548047639eac872"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "block_number_manipulation",
+      "severity": "medium",
+      "confidence": 0.91,
+      "line_numbers": [
+        59,
+        79
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

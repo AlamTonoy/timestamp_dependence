@@ -1,0 +1,37 @@
+{
+  "contract_id": "0x8be0f71a139e760618a7e5f717d0136feafbbf7d",
+  "collection_source": "historical_attack_pattern",
+  "compiler_version": "0.8.19",
+  "solidity_version": "^0.8.19",
+  "optimization_enabled": false,
+  "optimization_runs": 500,
+  "protocol_type": "AMM",
+  "protocol_name": "CurveFork",
+  "total_value_locked_usd": 1124085,
+  "deployment_date": "2019-03-18",
+  "audit_status": "Peckshield_2022",
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2021-10-08",
+    "exploit_value_usd": 745588,
+    "exploit_tx": "0xd4fe4dcda3046048968f5824372d6b7b37c2a64011e6d70e1d51111b8b277207"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "deadline_bypass",
+      "severity": "high",
+      "confidence": 0.94,
+      "line_numbers": [
+        14,
+        62
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

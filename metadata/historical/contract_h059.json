@@ -1,0 +1,34 @@
+{
+  "contract_id": "0x1fc3db624d4043390415b98dbeafb17bb2eb3f4f",
+  "collection_source": "historical_attack_pattern",
+  "compiler_version": "0.7.6",
+  "solidity_version": "^0.7.6",
+  "optimization_enabled": false,
+  "optimization_runs": 500,
+  "protocol_type": "DAO",
+  "protocol_name": "VoteDAO",
+  "total_value_locked_usd": 91381,
+  "deployment_date": "2020-07-01",
+  "audit_status": "Certik_2022",
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "miner_scheduled_execution",
+      "severity": "medium",
+      "confidence": 0.93,
+      "line_numbers": [
+        14,
+        65
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

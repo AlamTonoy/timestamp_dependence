@@ -1,0 +1,37 @@
+{
+  "contract_id": "0x5e209408555707862bbdf3c621a86502ad354092",
+  "collection_source": "historical_attack_pattern",
+  "compiler_version": "0.8.19",
+  "solidity_version": "^0.8.19",
+  "optimization_enabled": false,
+  "optimization_runs": 1000,
+  "protocol_type": "AMM",
+  "protocol_name": "PancakeFork",
+  "total_value_locked_usd": 1229497,
+  "deployment_date": "2021-10-01",
+  "audit_status": "Certik_2022",
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2022-02-07",
+    "exploit_value_usd": 957099,
+    "exploit_tx": "0x5fbfcedf758ab031a724ddd2b33510f6a4d73441b1d602eacd7697d5ac74d0ce"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "deadline_bypass",
+      "severity": "high",
+      "confidence": 0.96,
+      "line_numbers": [
+        47,
+        61
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

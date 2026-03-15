@@ -1,0 +1,34 @@
+{
+  "contract_id": "0x6bbeb1a65723b4625e0471cb4cccfa388cccab0e",
+  "collection_source": "historical_attack_pattern",
+  "compiler_version": "0.8.17",
+  "solidity_version": "^0.8.17",
+  "optimization_enabled": true,
+  "optimization_runs": 1000,
+  "protocol_type": "Staking",
+  "protocol_name": "YieldFarm",
+  "total_value_locked_usd": 65776,
+  "deployment_date": "2017-11-03",
+  "audit_status": "Quantstamp_2021",
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "timestamp_overflow",
+      "severity": "low",
+      "confidence": 0.97,
+      "line_numbers": [
+        18,
+        81
+      ],
+      "cwe": [
+        "CWE-190"
+      ],
+      "swc": [
+        "SWC-101"
+      ]
+    }
+  }
+}

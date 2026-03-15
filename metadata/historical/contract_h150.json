@@ -1,0 +1,38 @@
+{
+  "contract_id": "0x9f5b4096ef5ea69c692016828ef468f63731d051",
+  "collection_source": "historical_attack_pattern",
+  "compiler_version": "0.4.24",
+  "solidity_version": "^0.4.24",
+  "optimization_enabled": false,
+  "optimization_runs": 500,
+  "protocol_type": "NFT",
+  "protocol_name": "ArtMint",
+  "total_value_locked_usd": 2083947,
+  "deployment_date": "2022-09-19",
+  "audit_status": "Quantstamp_2021",
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2023-06-13",
+    "exploit_value_usd": 1339051,
+    "exploit_tx": "0xc2080679b200e875b90380afc20e8b03c6746b75e69948f9f3e873ff834270ae"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "block_timestamp_manipulation",
+      "severity": "high",
+      "confidence": 0.86,
+      "line_numbers": [
+        36,
+        58
+      ],
+      "cwe": [
+        "CWE-829",
+        "CWE-330"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

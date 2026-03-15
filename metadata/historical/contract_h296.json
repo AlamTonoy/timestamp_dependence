@@ -1,0 +1,37 @@
+{
+  "contract_id": "0x82651d1ce6e47a162b6072bb34457ef009890900",
+  "collection_source": "historical_attack_pattern",
+  "compiler_version": "0.8.7",
+  "solidity_version": "^0.8.7",
+  "optimization_enabled": false,
+  "optimization_runs": 1000,
+  "protocol_type": "Lending",
+  "protocol_name": "IronFork",
+  "total_value_locked_usd": 4612694,
+  "deployment_date": "2018-09-11",
+  "audit_status": "Peckshield_2022",
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2023-06-01",
+    "exploit_value_usd": 3339264,
+    "exploit_tx": "0x3a48e7eabf1036b0047ed12238450deaf1ed6f9dbaa19f8c75cd3efd26d19e3a"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "time_window_attack",
+      "severity": "high",
+      "confidence": 0.87,
+      "line_numbers": [
+        10,
+        88
+      ],
+      "cwe": [
+        "CWE-362"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

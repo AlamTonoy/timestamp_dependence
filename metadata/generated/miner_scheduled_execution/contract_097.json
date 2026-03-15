@@ -1,0 +1,34 @@
+{
+  "contract_id": "0x8e5c2c7d9e01df3817752d22d4c07484491c2d18",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.8.21",
+  "solidity_version": "^0.8.21",
+  "optimization_enabled": true,
+  "optimization_runs": 1000,
+  "protocol_type": "Staking",
+  "protocol_name": "NovaFarm",
+  "total_value_locked_usd": 21862264,
+  "deployment_date": "2020-11-27",
+  "audit_status": "Certik_2023",
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "miner_scheduled_execution",
+      "severity": "medium",
+      "confidence": 1.0,
+      "line_numbers": [
+        68,
+        77
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

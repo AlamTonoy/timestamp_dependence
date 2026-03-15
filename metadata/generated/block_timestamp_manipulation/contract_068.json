@@ -1,0 +1,35 @@
+{
+  "contract_id": "0x76946835fb65eaf2256b8666f41acd4a0df8d7ef",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.8.21",
+  "solidity_version": "^0.8.21",
+  "optimization_enabled": false,
+  "optimization_runs": 200,
+  "protocol_type": "Insurance",
+  "protocol_name": "ZetaGuard",
+  "total_value_locked_usd": 18264945,
+  "deployment_date": "2022-02-22",
+  "audit_status": null,
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "block_timestamp_manipulation",
+      "severity": "medium",
+      "confidence": 0.89,
+      "line_numbers": [
+        11,
+        20
+      ],
+      "cwe": [
+        "CWE-829",
+        "CWE-330"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

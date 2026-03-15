@@ -1,0 +1,37 @@
+{
+  "contract_id": "0x616850bfcd940a26df7e84fbf6d0a9a050eb74d8",
+  "collection_source": "historical_attack_pattern",
+  "compiler_version": "0.6.12",
+  "solidity_version": "^0.6.12",
+  "optimization_enabled": true,
+  "optimization_runs": 500,
+  "protocol_type": "Insurance",
+  "protocol_name": "NexusFork",
+  "total_value_locked_usd": 1020152,
+  "deployment_date": "2022-11-23",
+  "audit_status": "Halborn_2023",
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2024-03-16",
+    "exploit_value_usd": 1500000,
+    "exploit_tx": "0x91fa0d0f364385974b3ff95acc8c84b4286c134dafe6fa6ea6ffb5637dfc03de"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "block_timestamp_manipulation",
+      "severity": "medium",
+      "confidence": 0.87,
+      "line_numbers": [
+        44,
+        78
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "contract_id": "0x12bfeff3d6c5e017b08b71dd9b5f95ae6b2a30ba",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.8.21",
+  "solidity_version": "^0.8.21",
+  "optimization_enabled": true,
+  "optimization_runs": 200,
+  "protocol_type": "DAO",
+  "protocol_name": "DeltaDAO",
+  "total_value_locked_usd": 4583605,
+  "deployment_date": "2019-03-26",
+  "audit_status": null,
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "block_timestamp_manipulation",
+      "severity": "medium",
+      "confidence": 0.88,
+      "line_numbers": [
+        54,
+        68
+      ],
+      "cwe": [
+        "CWE-829",
+        "CWE-330"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

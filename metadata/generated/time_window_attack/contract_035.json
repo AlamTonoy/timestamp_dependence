@@ -1,0 +1,37 @@
+{
+  "contract_id": "0xab8f19e8109e7e161c67a4d83a035ab1ed888008",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.8.10",
+  "solidity_version": "^0.8.10",
+  "optimization_enabled": true,
+  "optimization_runs": 1000,
+  "protocol_type": "NFT",
+  "protocol_name": "AlphaMint",
+  "total_value_locked_usd": 1778169,
+  "deployment_date": "2021-09-24",
+  "audit_status": "Quantstamp_2023",
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2023-04-30",
+    "exploit_value_usd": 4479571,
+    "exploit_tx": "0x021463609e650fce3fb35b138e9bc55ce1e171a380f969c033f4f994ea112c7f"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "time_window_attack",
+      "severity": "medium",
+      "confidence": 0.79,
+      "line_numbers": [
+        11,
+        26
+      ],
+      "cwe": [
+        "CWE-362"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "contract_id": "0xf986e0ab3dbc888da9100c353bd3ec6f3dc0a27b",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.8.0",
+  "solidity_version": "^0.8.0",
+  "optimization_enabled": true,
+  "optimization_runs": 200,
+  "protocol_type": "DAO",
+  "protocol_name": "NovaDAO",
+  "total_value_locked_usd": 22687627,
+  "deployment_date": "2021-07-10",
+  "audit_status": "OpenZeppelin_2022",
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "block_number_manipulation",
+      "severity": "medium",
+      "confidence": 0.97,
+      "line_numbers": [
+        76,
+        95
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

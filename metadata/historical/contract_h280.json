@@ -1,0 +1,37 @@
+{
+  "contract_id": "0xe9075776a4954f87df24c2ec55decc93b62e9721",
+  "collection_source": "historical_attack_pattern",
+  "compiler_version": "0.8.0",
+  "solidity_version": "^0.8.0",
+  "optimization_enabled": false,
+  "optimization_runs": 1000,
+  "protocol_type": "Bridge",
+  "protocol_name": "AnyswapFork",
+  "total_value_locked_usd": 764662,
+  "deployment_date": "2021-09-03",
+  "audit_status": null,
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2021-11-19",
+    "exploit_value_usd": 453865,
+    "exploit_tx": "0xbdf3d0929cf0b599a6b959096bb9c65689bc05c6fed68395c0f659afa7f3264b"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "miner_scheduled_execution",
+      "severity": "medium",
+      "confidence": 0.99,
+      "line_numbers": [
+        24,
+        62
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

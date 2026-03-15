@@ -1,0 +1,37 @@
+{
+  "contract_id": "0x282767d0f5f06bc6b661d0b23193a9a2eb957d02",
+  "collection_source": "historical_attack_pattern",
+  "compiler_version": "0.4.24",
+  "solidity_version": "^0.4.24",
+  "optimization_enabled": false,
+  "optimization_runs": 500,
+  "protocol_type": "Staking",
+  "protocol_name": "RewardVault",
+  "total_value_locked_usd": 96083,
+  "deployment_date": "2020-05-09",
+  "audit_status": "Trail_of_Bits_2021",
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2021-08-20",
+    "exploit_value_usd": 49993,
+    "exploit_tx": "0xf40898f894a879ba37adc99b99030d96fdc227ae7a8ceb15993b1f9331163ebf"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "block_timestamp_manipulation",
+      "severity": "medium",
+      "confidence": 0.87,
+      "line_numbers": [
+        10,
+        76
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

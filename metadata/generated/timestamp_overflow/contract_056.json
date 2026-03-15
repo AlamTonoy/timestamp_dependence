@@ -1,0 +1,38 @@
+{
+  "contract_id": "0xaa12171fb47f43506cd2a9f297be5376cbea47cb",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.8.20",
+  "solidity_version": "^0.8.20",
+  "optimization_enabled": false,
+  "optimization_runs": 1000,
+  "protocol_type": "Staking",
+  "protocol_name": "NovaYield",
+  "total_value_locked_usd": 14060403,
+  "deployment_date": "2020-12-14",
+  "audit_status": "Hacken_2024",
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2022-06-14",
+    "exploit_value_usd": 1558126,
+    "exploit_tx": "0x81788f9272c2d7972c76e44259cfb6a382e89ca320dc5074b6f060b8295166c5"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "timestamp_overflow",
+      "severity": "low",
+      "confidence": 0.76,
+      "line_numbers": [
+        42,
+        48
+      ],
+      "cwe": [
+        "CWE-190"
+      ],
+      "swc": [
+        "SWC-116",
+        "SWC-101"
+      ]
+    }
+  }
+}

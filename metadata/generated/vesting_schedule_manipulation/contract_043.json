@@ -1,0 +1,37 @@
+{
+  "contract_id": "0xd9bef42c737cd1a27db8da8fd4526f9d9997fca4",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.8.7",
+  "solidity_version": "^0.8.7",
+  "optimization_enabled": false,
+  "optimization_runs": 1000,
+  "protocol_type": "DAO",
+  "protocol_name": "OmegaGovernance",
+  "total_value_locked_usd": 24006589,
+  "deployment_date": "2020-05-09",
+  "audit_status": "Certik_2023",
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2020-12-26",
+    "exploit_value_usd": 2272560,
+    "exploit_tx": "0xac465e9e6972e50fb59f83f9a9769140be33ce3806090f9024d43df635ba5a75"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "vesting_schedule_manipulation",
+      "severity": "high",
+      "confidence": 0.85,
+      "line_numbers": [
+        58,
+        67
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

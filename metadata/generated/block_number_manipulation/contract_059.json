@@ -1,0 +1,34 @@
+{
+  "contract_id": "0xa6d38966b75e5581e1ac3fa2db81fed0d53a9d1f",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.7.6",
+  "solidity_version": "^0.7.6",
+  "optimization_enabled": false,
+  "optimization_runs": 1000,
+  "protocol_type": "Staking",
+  "protocol_name": "DeltaStake",
+  "total_value_locked_usd": 46593266,
+  "deployment_date": "2023-12-28",
+  "audit_status": "Quantstamp_2023",
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "block_number_manipulation",
+      "severity": "medium",
+      "confidence": 0.8,
+      "line_numbers": [
+        29,
+        42
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

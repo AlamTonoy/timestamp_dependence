@@ -1,0 +1,37 @@
+{
+  "contract_id": "0x36d8a74a1f6b8ddc1f14415afcab08eab24824bf",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.8.20",
+  "solidity_version": "^0.8.20",
+  "optimization_enabled": true,
+  "optimization_runs": 500,
+  "protocol_type": "Lottery",
+  "protocol_name": "NovaJackpot",
+  "total_value_locked_usd": 10335316,
+  "deployment_date": "2024-02-10",
+  "audit_status": null,
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2024-08-06",
+    "exploit_value_usd": 394560,
+    "exploit_tx": "0x2ac7d3a88df862758aef835150430411707edee81f0dd5611959cb1094fd9ca1"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "vesting_schedule_manipulation",
+      "severity": "high",
+      "confidence": 0.75,
+      "line_numbers": [
+        32,
+        45
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "contract_id": "0x2140aaf1fb8f16b805c890287c6f82e49b455b2a",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.7.6",
+  "solidity_version": "^0.7.6",
+  "optimization_enabled": true,
+  "optimization_runs": 1000,
+  "protocol_type": "Options",
+  "protocol_name": "DeltaDerivatives",
+  "total_value_locked_usd": 36468643,
+  "deployment_date": "2020-12-22",
+  "audit_status": "Halborn_2024",
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2023-07-25",
+    "exploit_value_usd": 4993392,
+    "exploit_tx": "0xff27a050ab2866dc6075c253ceb95ab22fda0d684a36f566aba467a71b2c50f3"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "block_timestamp_manipulation",
+      "severity": "medium",
+      "confidence": 0.92,
+      "line_numbers": [
+        16,
+        27
+      ],
+      "cwe": [
+        "CWE-829",
+        "CWE-330"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

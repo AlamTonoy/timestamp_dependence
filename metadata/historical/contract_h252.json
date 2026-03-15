@@ -1,0 +1,37 @@
+{
+  "contract_id": "0xd775327856c3ca59da34ff6d09f29a890678706b",
+  "collection_source": "historical_attack_pattern",
+  "compiler_version": "0.7.6",
+  "solidity_version": "^0.7.6",
+  "optimization_enabled": false,
+  "optimization_runs": 1000,
+  "protocol_type": "Lending",
+  "protocol_name": "AaveFork",
+  "total_value_locked_usd": 2835149,
+  "deployment_date": "2018-05-17",
+  "audit_status": "OpenZeppelin_2021",
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2018-08-08",
+    "exploit_value_usd": 6728836,
+    "exploit_tx": "0xe8768265a92699d8d50293185289e2a14c7e05a7ed146ee8da23d6cfea28f8e8"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "time_window_attack",
+      "severity": "high",
+      "confidence": 0.88,
+      "line_numbers": [
+        12,
+        92
+      ],
+      "cwe": [
+        "CWE-362"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

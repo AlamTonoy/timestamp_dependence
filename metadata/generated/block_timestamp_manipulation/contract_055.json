@@ -1,0 +1,35 @@
+{
+  "contract_id": "0x480d40d8709ce332a9d8e93dc6b5031742413875",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.6.12",
+  "solidity_version": "^0.6.12",
+  "optimization_enabled": false,
+  "optimization_runs": 200,
+  "protocol_type": "Insurance",
+  "protocol_name": "AlphaCover",
+  "total_value_locked_usd": 47763675,
+  "deployment_date": "2019-04-28",
+  "audit_status": "ConsenSys_Diligence_2023",
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "block_timestamp_manipulation",
+      "severity": "medium",
+      "confidence": 0.98,
+      "line_numbers": [
+        21,
+        37
+      ],
+      "cwe": [
+        "CWE-829",
+        "CWE-330"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

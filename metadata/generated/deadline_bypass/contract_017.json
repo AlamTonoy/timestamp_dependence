@@ -1,0 +1,37 @@
+{
+  "contract_id": "0x1d68cfa5b1d730e48211b2c6a11abee4b6ed8716",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.7.6",
+  "solidity_version": "^0.7.6",
+  "optimization_enabled": false,
+  "optimization_runs": 500,
+  "protocol_type": "AMM",
+  "protocol_name": "OmegaPool",
+  "total_value_locked_usd": 39863395,
+  "deployment_date": "2024-10-11",
+  "audit_status": "Peckshield_2024",
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2024-11-02",
+    "exploit_value_usd": 4400121,
+    "exploit_tx": "0x4dd22e68fa320b442687b8866c258d6ada0f452e4764f695896a83f551fe1494"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "deadline_bypass",
+      "severity": "high",
+      "confidence": 0.92,
+      "line_numbers": [
+        78,
+        83
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

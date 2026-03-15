@@ -1,0 +1,37 @@
+{
+  "contract_id": "0x32511b74e2df49e0cf58d2ba3f1ea7644966b7e1",
+  "collection_source": "historical_attack_pattern",
+  "compiler_version": "0.6.12",
+  "solidity_version": "^0.6.12",
+  "optimization_enabled": true,
+  "optimization_runs": 1000,
+  "protocol_type": "Lending",
+  "protocol_name": "CompoundFork",
+  "total_value_locked_usd": 21211244,
+  "deployment_date": "2018-01-28",
+  "audit_status": "OpenZeppelin_2021",
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2018-10-06",
+    "exploit_value_usd": 11670293,
+    "exploit_tx": "0xf1c516bb7a87d54d9aa4c953fa2e61b7deff821b8dfb959128b429fcbdcd016c"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "time_window_attack",
+      "severity": "high",
+      "confidence": 0.92,
+      "line_numbers": [
+        41,
+        54
+      ],
+      "cwe": [
+        "CWE-362"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "contract_id": "0xecea8c6f572fe246971197167bb22ce6c049dff8",
+  "collection_source": "historical_attack_pattern",
+  "compiler_version": "0.4.24",
+  "solidity_version": "^0.4.24",
+  "optimization_enabled": false,
+  "optimization_runs": 200,
+  "protocol_type": "Insurance",
+  "protocol_name": "NexusFork",
+  "total_value_locked_usd": 1147078,
+  "deployment_date": "2019-10-07",
+  "audit_status": "Peckshield_2022",
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2023-08-08",
+    "exploit_value_usd": 2069410,
+    "exploit_tx": "0x21ebafb8cd321f483a18c2ab65fbf11ccfedbdba0a714e514fe4eebe641bc2ca"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "block_timestamp_manipulation",
+      "severity": "medium",
+      "confidence": 0.94,
+      "line_numbers": [
+        35,
+        99
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

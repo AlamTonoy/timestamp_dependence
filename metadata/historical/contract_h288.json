@@ -1,0 +1,38 @@
+{
+  "contract_id": "0x40e32adc088bb025e823bd0d8536a7b505f0aa9a",
+  "collection_source": "historical_attack_pattern",
+  "compiler_version": "0.8.0",
+  "solidity_version": "^0.8.0",
+  "optimization_enabled": true,
+  "optimization_runs": 200,
+  "protocol_type": "Lottery",
+  "protocol_name": "GovernMental",
+  "total_value_locked_usd": 67985,
+  "deployment_date": "2023-10-02",
+  "audit_status": "Quantstamp_2021",
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2023-12-25",
+    "exploit_value_usd": 135048,
+    "exploit_tx": "0xb5a6e985f6da61d634ac01a2d8e042c458f1de8283ace4443209b0b3a08a35ca"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "block_timestamp_manipulation",
+      "severity": "medium",
+      "confidence": 0.99,
+      "line_numbers": [
+        50,
+        80
+      ],
+      "cwe": [
+        "CWE-829",
+        "CWE-330"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "contract_id": "0x8cbff5df318b4736804ee40e9d584dd90fcbb3e7",
+  "collection_source": "historical_attack_pattern",
+  "compiler_version": "0.8.0",
+  "solidity_version": "^0.8.0",
+  "optimization_enabled": false,
+  "optimization_runs": 200,
+  "protocol_type": "Lending",
+  "protocol_name": "IronFork",
+  "total_value_locked_usd": 1769660,
+  "deployment_date": "2017-07-30",
+  "audit_status": "OpenZeppelin_2021",
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2023-04-13",
+    "exploit_value_usd": 1157929,
+    "exploit_tx": "0xed518fdf224829b04dbb1be855a81dbef7c87de2e0e084de6600ef627fe1d8ed"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "deadline_bypass",
+      "severity": "high",
+      "confidence": 0.98,
+      "line_numbers": [
+        31,
+        91
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

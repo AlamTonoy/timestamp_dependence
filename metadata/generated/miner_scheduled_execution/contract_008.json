@@ -1,0 +1,37 @@
+{
+  "contract_id": "0x76e557dbe566662917be05d6368f31e26f842378",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.6.12",
+  "solidity_version": "^0.6.12",
+  "optimization_enabled": true,
+  "optimization_runs": 500,
+  "protocol_type": "Staking",
+  "protocol_name": "OmegaYield",
+  "total_value_locked_usd": 33381996,
+  "deployment_date": "2019-10-16",
+  "audit_status": "Certik_2023",
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2019-10-27",
+    "exploit_value_usd": 4389242,
+    "exploit_tx": "0x2bff830b012fbfc71c9f097c9d001be7e3348eba685b9517fb977bd07a1adba3"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "miner_scheduled_execution",
+      "severity": "medium",
+      "confidence": 0.9,
+      "line_numbers": [
+        56,
+        72
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

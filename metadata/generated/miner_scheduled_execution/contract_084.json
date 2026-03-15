@@ -1,0 +1,34 @@
+{
+  "contract_id": "0x1de9708d6483dea9a6ab39cb134e7972b08247b7",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.8.7",
+  "solidity_version": "^0.8.7",
+  "optimization_enabled": true,
+  "optimization_runs": 200,
+  "protocol_type": "Insurance",
+  "protocol_name": "OmegaGuard",
+  "total_value_locked_usd": 14745463,
+  "deployment_date": "2020-07-09",
+  "audit_status": "Peckshield_2024",
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "miner_scheduled_execution",
+      "severity": "medium",
+      "confidence": 0.9,
+      "line_numbers": [
+        23,
+        41
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "contract_id": "0xfbf63c0b1082ad0ba7854fa013a16dc4f6280d39",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.8.20",
+  "solidity_version": "^0.8.20",
+  "optimization_enabled": false,
+  "optimization_runs": 200,
+  "protocol_type": "Lending",
+  "protocol_name": "GammaLend",
+  "total_value_locked_usd": 19766627,
+  "deployment_date": "2020-02-08",
+  "audit_status": "Trail_of_Bits_2023",
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2024-03-05",
+    "exploit_value_usd": 631780,
+    "exploit_tx": "0x35274ad08624e1604a10386605ce887938bb2a453dda46fc0269236e5679483f"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "deadline_bypass",
+      "severity": "high",
+      "confidence": 0.83,
+      "line_numbers": [
+        56,
+        68
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

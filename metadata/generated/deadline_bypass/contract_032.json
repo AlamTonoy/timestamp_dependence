@@ -1,0 +1,34 @@
+{
+  "contract_id": "0xb0fb9a69801c8b289d4e42666916b8b2b2b54b2a",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.7.6",
+  "solidity_version": "^0.7.6",
+  "optimization_enabled": true,
+  "optimization_runs": 200,
+  "protocol_type": "Vault",
+  "protocol_name": "BetaVault",
+  "total_value_locked_usd": 24561658,
+  "deployment_date": "2022-09-09",
+  "audit_status": "Peckshield_2024",
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "deadline_bypass",
+      "severity": "high",
+      "confidence": 0.77,
+      "line_numbers": [
+        24,
+        41
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

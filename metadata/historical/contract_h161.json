@@ -1,0 +1,37 @@
+{
+  "contract_id": "0xd6162c176808781997820b899fbfefa2f0e9b2ec",
+  "collection_source": "historical_attack_pattern",
+  "compiler_version": "0.7.6",
+  "solidity_version": "^0.7.6",
+  "optimization_enabled": false,
+  "optimization_runs": 1000,
+  "protocol_type": "Lottery",
+  "protocol_name": "GovernMental",
+  "total_value_locked_usd": 29262,
+  "deployment_date": "2022-02-12",
+  "audit_status": "OpenZeppelin_2021",
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2024-05-13",
+    "exploit_value_usd": 21698,
+    "exploit_tx": "0xca494458ea41b6fa366b07bf07080474e6335323b00cec1b6ea6972f26371e21"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "block_number_manipulation",
+      "severity": "medium",
+      "confidence": 0.99,
+      "line_numbers": [
+        16,
+        57
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

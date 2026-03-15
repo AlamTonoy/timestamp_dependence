@@ -1,0 +1,38 @@
+{
+  "contract_id": "0xdc2a4c403965d4c5318c0015f7c188468ca9fa13",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.7.6",
+  "solidity_version": "^0.7.6",
+  "optimization_enabled": false,
+  "optimization_runs": 1000,
+  "protocol_type": "Bridge",
+  "protocol_name": "OmegaCross",
+  "total_value_locked_usd": 8627775,
+  "deployment_date": "2022-07-06",
+  "audit_status": "Peckshield_2024",
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2023-11-30",
+    "exploit_value_usd": 3196224,
+    "exploit_tx": "0x49a7fae238fb5b59113e63fd645f5a429e05d5e3fe9c57997c6253308b8e5546"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "timestamp_overflow",
+      "severity": "low",
+      "confidence": 0.97,
+      "line_numbers": [
+        24,
+        30
+      ],
+      "cwe": [
+        "CWE-190"
+      ],
+      "swc": [
+        "SWC-116",
+        "SWC-101"
+      ]
+    }
+  }
+}

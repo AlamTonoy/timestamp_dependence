@@ -1,0 +1,37 @@
+{
+  "contract_id": "0x870b6698d02f7ad1bfb0e60b5667067ea738968d",
+  "collection_source": "historical_attack_pattern",
+  "compiler_version": "0.6.12",
+  "solidity_version": "^0.6.12",
+  "optimization_enabled": false,
+  "optimization_runs": 500,
+  "protocol_type": "Lottery",
+  "protocol_name": "CryptoMillions",
+  "total_value_locked_usd": 13837,
+  "deployment_date": "2019-06-14",
+  "audit_status": "OpenZeppelin_2021",
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2022-09-19",
+    "exploit_value_usd": 66113,
+    "exploit_tx": "0x42ded6fb1d8691a4114c78d459531cce54664e657d8713d4c30c336375b7bb37"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "block_number_manipulation",
+      "severity": "medium",
+      "confidence": 1.0,
+      "line_numbers": [
+        34,
+        52
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

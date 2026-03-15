@@ -1,0 +1,37 @@
+{
+  "contract_id": "0xb5ca59acaa9601cdf31cf24371a421eb3c324686",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.7.6",
+  "solidity_version": "^0.7.6",
+  "optimization_enabled": false,
+  "optimization_runs": 200,
+  "protocol_type": "Insurance",
+  "protocol_name": "DeltaShield",
+  "total_value_locked_usd": 43739868,
+  "deployment_date": "2022-08-22",
+  "audit_status": "Trail_of_Bits_2024",
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2024-07-13",
+    "exploit_value_usd": 2947682,
+    "exploit_tx": "0x24f8bb889fd3d00331a4582b49c59e272700b503db0cbfad62da6ab220f6c137"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "time_window_attack",
+      "severity": "medium",
+      "confidence": 0.93,
+      "line_numbers": [
+        30,
+        48
+      ],
+      "cwe": [
+        "CWE-362"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

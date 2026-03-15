@@ -1,0 +1,37 @@
+{
+  "contract_id": "0x328e087cc023f536d08ed0b34f06b5dd6985ee97",
+  "collection_source": "historical_attack_pattern",
+  "compiler_version": "0.4.25",
+  "solidity_version": "^0.4.25",
+  "optimization_enabled": false,
+  "optimization_runs": 200,
+  "protocol_type": "Vault",
+  "protocol_name": "TimeLockSafe",
+  "total_value_locked_usd": 446882,
+  "deployment_date": "2022-05-11",
+  "audit_status": "OpenZeppelin_2021",
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2024-02-12",
+    "exploit_value_usd": 725372,
+    "exploit_tx": "0x4b17eab54fc3a2452598d5b1dc3ff991c0d9a822dbf9946315adec77d8762851"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "deadline_bypass",
+      "severity": "high",
+      "confidence": 0.88,
+      "line_numbers": [
+        34,
+        84
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

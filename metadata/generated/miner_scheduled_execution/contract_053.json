@@ -1,0 +1,37 @@
+{
+  "contract_id": "0xafc03d1a2765f100038f20bd5ad9ac55e82a81e5",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.8.17",
+  "solidity_version": "^0.8.17",
+  "optimization_enabled": false,
+  "optimization_runs": 1000,
+  "protocol_type": "AMM",
+  "protocol_name": "DeltaPool",
+  "total_value_locked_usd": 19034786,
+  "deployment_date": "2023-12-03",
+  "audit_status": "Halborn_2024",
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2024-08-26",
+    "exploit_value_usd": 654417,
+    "exploit_tx": "0xc3a17645f136dd79ee9138e08faad81f275aba3f1acb79930d1d0fe21bdfe58d"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "miner_scheduled_execution",
+      "severity": "medium",
+      "confidence": 0.78,
+      "line_numbers": [
+        13,
+        20
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

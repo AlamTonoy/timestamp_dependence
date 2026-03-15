@@ -1,0 +1,37 @@
+{
+  "contract_id": "0xe99d8f60597ca53d5f3669a30f8cf97f2f454e0c",
+  "collection_source": "historical_attack_pattern",
+  "compiler_version": "0.4.24",
+  "solidity_version": "^0.4.24",
+  "optimization_enabled": false,
+  "optimization_runs": 500,
+  "protocol_type": "Staking",
+  "protocol_name": "YieldFarm",
+  "total_value_locked_usd": 945816,
+  "deployment_date": "2023-06-09",
+  "audit_status": "Peckshield_2022",
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2024-03-15",
+    "exploit_value_usd": 807066,
+    "exploit_tx": "0xdc4d1cf793cd79f387684f1f2888b8880c0b022b47bee25900459f6a3f328e90"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "vesting_schedule_manipulation",
+      "severity": "high",
+      "confidence": 0.98,
+      "line_numbers": [
+        26,
+        89
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

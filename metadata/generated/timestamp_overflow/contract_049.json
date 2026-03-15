@@ -1,0 +1,35 @@
+{
+  "contract_id": "0x78f09bd47c0aa59dc9e7ff0450b4d4124e9c6ddf",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.8.17",
+  "solidity_version": "^0.8.17",
+  "optimization_enabled": true,
+  "optimization_runs": 1000,
+  "protocol_type": "Staking",
+  "protocol_name": "GammaYield",
+  "total_value_locked_usd": 14117532,
+  "deployment_date": "2023-10-25",
+  "audit_status": null,
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "timestamp_overflow",
+      "severity": "low",
+      "confidence": 0.92,
+      "line_numbers": [
+        59,
+        66
+      ],
+      "cwe": [
+        "CWE-190"
+      ],
+      "swc": [
+        "SWC-116",
+        "SWC-101"
+      ]
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "contract_id": "0xc7769bb872749b2cebc298bb76baa3f7a62dd8a4",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.8.17",
+  "solidity_version": "^0.8.17",
+  "optimization_enabled": false,
+  "optimization_runs": 1000,
+  "protocol_type": "NFT",
+  "protocol_name": "DeltaMint",
+  "total_value_locked_usd": 48253400,
+  "deployment_date": "2020-06-08",
+  "audit_status": "Peckshield_2024",
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2024-11-20",
+    "exploit_value_usd": 1123505,
+    "exploit_tx": "0xa566b16f61ac4921b4a2f14e7b4bf68aa36b88241b99517a3923b53c2680b08e"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "block_timestamp_manipulation",
+      "severity": "medium",
+      "confidence": 0.97,
+      "line_numbers": [
+        11,
+        27
+      ],
+      "cwe": [
+        "CWE-829",
+        "CWE-330"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

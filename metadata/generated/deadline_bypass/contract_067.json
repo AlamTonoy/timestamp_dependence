@@ -1,0 +1,37 @@
+{
+  "contract_id": "0x327d033188441c6ffb2078b5342301b77f68c3db",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.8.0",
+  "solidity_version": "^0.8.0",
+  "optimization_enabled": true,
+  "optimization_runs": 200,
+  "protocol_type": "Bridge",
+  "protocol_name": "DeltaCross",
+  "total_value_locked_usd": 14394092,
+  "deployment_date": "2022-09-17",
+  "audit_status": "Trail_of_Bits_2024",
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2024-11-13",
+    "exploit_value_usd": 2761079,
+    "exploit_tx": "0xa1379eec7517c1889b283ae93f5bea43b275c874480ec291b7f022c1f3bef10a"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "deadline_bypass",
+      "severity": "high",
+      "confidence": 0.8,
+      "line_numbers": [
+        41,
+        54
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

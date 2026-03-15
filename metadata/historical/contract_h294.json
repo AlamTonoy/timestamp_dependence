@@ -1,0 +1,34 @@
+{
+  "contract_id": "0x5313423549ebeb53aa7034a90aa026c14578bd11",
+  "collection_source": "historical_attack_pattern",
+  "compiler_version": "0.4.25",
+  "solidity_version": "^0.4.25",
+  "optimization_enabled": false,
+  "optimization_runs": 500,
+  "protocol_type": "DAO",
+  "protocol_name": "GovernanceDAO",
+  "total_value_locked_usd": 38026,
+  "deployment_date": "2019-01-12",
+  "audit_status": "Peckshield_2022",
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "block_number_manipulation",
+      "severity": "medium",
+      "confidence": 0.88,
+      "line_numbers": [
+        35,
+        52
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

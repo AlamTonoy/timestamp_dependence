@@ -1,0 +1,37 @@
+{
+  "contract_id": "0xb4f5abaab571b053146d7b2138d86a122988b030",
+  "collection_source": "historical_attack_pattern",
+  "compiler_version": "0.8.19",
+  "solidity_version": "^0.8.19",
+  "optimization_enabled": true,
+  "optimization_runs": 500,
+  "protocol_type": "Bridge",
+  "protocol_name": "HopFork",
+  "total_value_locked_usd": 443330,
+  "deployment_date": "2018-10-24",
+  "audit_status": "OpenZeppelin_2021",
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2024-05-17",
+    "exploit_value_usd": 322983,
+    "exploit_tx": "0x4880f8cb37cc0bd9920ea23c7408a19845e988ff41c1c3f19c4f659f9087f767"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "miner_scheduled_execution",
+      "severity": "medium",
+      "confidence": 0.96,
+      "line_numbers": [
+        25,
+        86
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

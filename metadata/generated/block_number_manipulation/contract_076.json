@@ -1,0 +1,34 @@
+{
+  "contract_id": "0x7a0b9e1443308e0fb57db24d54c5aed97b07f1d6",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.8.0",
+  "solidity_version": "^0.8.0",
+  "optimization_enabled": false,
+  "optimization_runs": 500,
+  "protocol_type": "Lottery",
+  "protocol_name": "ZetaJackpot",
+  "total_value_locked_usd": 24943207,
+  "deployment_date": "2020-07-05",
+  "audit_status": "Trail_of_Bits_2023",
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "block_number_manipulation",
+      "severity": "medium",
+      "confidence": 0.77,
+      "line_numbers": [
+        14,
+        26
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

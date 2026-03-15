@@ -1,0 +1,34 @@
+{
+  "contract_id": "0x8092dd4165782cb212e4095d38347f6c510c8781",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.7.6",
+  "solidity_version": "^0.7.6",
+  "optimization_enabled": true,
+  "optimization_runs": 200,
+  "protocol_type": "AMM",
+  "protocol_name": "ZetaDEX",
+  "total_value_locked_usd": 34096153,
+  "deployment_date": "2021-12-24",
+  "audit_status": "Halborn_2024",
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "miner_scheduled_execution",
+      "severity": "medium",
+      "confidence": 0.96,
+      "line_numbers": [
+        19,
+        37
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

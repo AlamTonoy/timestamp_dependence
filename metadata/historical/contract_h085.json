@@ -1,0 +1,37 @@
+{
+  "contract_id": "0x60c6eaad1de72a7cec3d3c39a4a75d6341871734",
+  "collection_source": "historical_attack_pattern",
+  "compiler_version": "0.6.12",
+  "solidity_version": "^0.6.12",
+  "optimization_enabled": false,
+  "optimization_runs": 1000,
+  "protocol_type": "Options",
+  "protocol_name": "HedgeX",
+  "total_value_locked_usd": 6158857,
+  "deployment_date": "2018-12-18",
+  "audit_status": "Peckshield_2022",
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2020-07-06",
+    "exploit_value_usd": 5386237,
+    "exploit_tx": "0x44dadd9d5b3663b6f73d8af6894f1586771d17190e375a344d1d20f56ded069d"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "deadline_bypass",
+      "severity": "high",
+      "confidence": 0.86,
+      "line_numbers": [
+        20,
+        76
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

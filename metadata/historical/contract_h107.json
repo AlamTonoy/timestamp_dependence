@@ -1,0 +1,37 @@
+{
+  "contract_id": "0x80e384ed35c45d0cd01b57cc36f61cee6809f486",
+  "collection_source": "historical_attack_pattern",
+  "compiler_version": "0.8.7",
+  "solidity_version": "^0.8.7",
+  "optimization_enabled": true,
+  "optimization_runs": 500,
+  "protocol_type": "Options",
+  "protocol_name": "OptionPool",
+  "total_value_locked_usd": 170443,
+  "deployment_date": "2016-10-23",
+  "audit_status": null,
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2018-10-11",
+    "exploit_value_usd": 1680523,
+    "exploit_tx": "0x4acee22209c5e32dc4a4525ade8921d21e019d6966b3bfb802137c854bd4452f"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "deadline_bypass",
+      "severity": "high",
+      "confidence": 0.91,
+      "line_numbers": [
+        46,
+        57
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

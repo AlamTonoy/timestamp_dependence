@@ -1,0 +1,37 @@
+{
+  "contract_id": "0x37976ee98081fa5d213eccc9870ee5b38c6e468b",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.8.10",
+  "solidity_version": "^0.8.10",
+  "optimization_enabled": false,
+  "optimization_runs": 500,
+  "protocol_type": "NFT",
+  "protocol_name": "GammaMint",
+  "total_value_locked_usd": 37859924,
+  "deployment_date": "2023-04-19",
+  "audit_status": "Trail_of_Bits_2024",
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2024-01-05",
+    "exploit_value_usd": 3197815,
+    "exploit_tx": "0x4d9cd17bb07408ab0f0db585426872bb8137520d63b9058f5dc7402b6e07f5f8"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "vesting_schedule_manipulation",
+      "severity": "high",
+      "confidence": 0.99,
+      "line_numbers": [
+        44,
+        64
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

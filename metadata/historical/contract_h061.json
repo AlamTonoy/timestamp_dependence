@@ -1,0 +1,37 @@
+{
+  "contract_id": "0x9e95b6ddde071249bdcc06a008add5f7eb41fc89",
+  "collection_source": "historical_attack_pattern",
+  "compiler_version": "0.4.25",
+  "solidity_version": "^0.4.25",
+  "optimization_enabled": true,
+  "optimization_runs": 1000,
+  "protocol_type": "Insurance",
+  "protocol_name": "ShieldFi",
+  "total_value_locked_usd": 1603198,
+  "deployment_date": "2016-03-31",
+  "audit_status": "Quantstamp_2021",
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2023-01-19",
+    "exploit_value_usd": 1835511,
+    "exploit_tx": "0xff53b3fc44c8f2157f371ed597967f7fc9a8212596fcacf6a70af3667aa38c95"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "block_timestamp_manipulation",
+      "severity": "medium",
+      "confidence": 0.98,
+      "line_numbers": [
+        19,
+        75
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

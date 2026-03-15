@@ -1,0 +1,37 @@
+{
+  "contract_id": "0x18ec1f1988a8339ff2c665dd11529d463684eccd",
+  "collection_source": "historical_attack_pattern",
+  "compiler_version": "0.7.6",
+  "solidity_version": "^0.7.6",
+  "optimization_enabled": false,
+  "optimization_runs": 1000,
+  "protocol_type": "Bridge",
+  "protocol_name": "RoninFork",
+  "total_value_locked_usd": 34864,
+  "deployment_date": "2023-01-09",
+  "audit_status": "Peckshield_2022",
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2024-01-31",
+    "exploit_value_usd": 116782,
+    "exploit_tx": "0x44ceb730dbc4231550c4baed7599f64799dfaff9c1e3d53e85c54ee2c41015bd"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "miner_scheduled_execution",
+      "severity": "medium",
+      "confidence": 0.95,
+      "line_numbers": [
+        25,
+        100
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

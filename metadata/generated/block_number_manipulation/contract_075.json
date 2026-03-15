@@ -1,0 +1,34 @@
+{
+  "contract_id": "0x9494c8e61a2f46cdf105a56b57d50151e5ecff73",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.8.20",
+  "solidity_version": "^0.8.20",
+  "optimization_enabled": false,
+  "optimization_runs": 200,
+  "protocol_type": "Lottery",
+  "protocol_name": "AlphaJackpot",
+  "total_value_locked_usd": 6171371,
+  "deployment_date": "2023-12-25",
+  "audit_status": "Certik_2023",
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "block_number_manipulation",
+      "severity": "medium",
+      "confidence": 0.79,
+      "line_numbers": [
+        27,
+        45
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

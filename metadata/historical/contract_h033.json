@@ -1,0 +1,38 @@
+{
+  "contract_id": "0x55ff679a1e8b2c683b63e1f81a001d3d80f72c82",
+  "collection_source": "historical_attack_pattern",
+  "compiler_version": "0.4.24",
+  "solidity_version": "^0.4.24",
+  "optimization_enabled": false,
+  "optimization_runs": 500,
+  "protocol_type": "Vault",
+  "protocol_name": "EthVault",
+  "total_value_locked_usd": 75858,
+  "deployment_date": "2017-11-13",
+  "audit_status": "OpenZeppelin_2021",
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2022-09-16",
+    "exploit_value_usd": 1,
+    "exploit_tx": "0x94b66bc8b0886be1463f798cf136dab45e84ba614c8386eb09ad436e6a5c08a7"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "timestamp_overflow",
+      "severity": "low",
+      "confidence": 0.89,
+      "line_numbers": [
+        35,
+        81
+      ],
+      "cwe": [
+        "CWE-190"
+      ],
+      "swc": [
+        "SWC-101",
+        "SWC-116"
+      ]
+    }
+  }
+}

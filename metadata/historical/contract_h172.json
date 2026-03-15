@@ -1,0 +1,38 @@
+{
+  "contract_id": "0x9380b98912a110832f2176ae55bd630dcbf17c96",
+  "collection_source": "historical_attack_pattern",
+  "compiler_version": "0.8.7",
+  "solidity_version": "^0.8.7",
+  "optimization_enabled": true,
+  "optimization_runs": 500,
+  "protocol_type": "NFT",
+  "protocol_name": "RareMint",
+  "total_value_locked_usd": 31605,
+  "deployment_date": "2020-11-29",
+  "audit_status": "Trail_of_Bits_2021",
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2023-04-16",
+    "exploit_value_usd": 99770,
+    "exploit_tx": "0x72dcba298954bac6fc76073398d1a64ba6c9272b0ce59c3e1c2ffd0ba4ea7739"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "block_timestamp_manipulation",
+      "severity": "high",
+      "confidence": 0.96,
+      "line_numbers": [
+        15,
+        71
+      ],
+      "cwe": [
+        "CWE-829",
+        "CWE-330"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

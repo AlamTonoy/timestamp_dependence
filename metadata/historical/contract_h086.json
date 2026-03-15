@@ -1,0 +1,37 @@
+{
+  "contract_id": "0x56103aa8ccd55d1ba90275f912f9971c9fc6080f",
+  "collection_source": "historical_attack_pattern",
+  "compiler_version": "0.8.7",
+  "solidity_version": "^0.8.7",
+  "optimization_enabled": true,
+  "optimization_runs": 200,
+  "protocol_type": "Staking",
+  "protocol_name": "RewardVault",
+  "total_value_locked_usd": 915527,
+  "deployment_date": "2019-02-06",
+  "audit_status": "OpenZeppelin_2021",
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2020-06-20",
+    "exploit_value_usd": 947223,
+    "exploit_tx": "0x58266861900424c2c78548d4e6dae1e2ac1697657b7c1c4edc945da1902b4319"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "block_timestamp_manipulation",
+      "severity": "medium",
+      "confidence": 0.92,
+      "line_numbers": [
+        32,
+        56
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

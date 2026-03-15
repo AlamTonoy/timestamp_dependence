@@ -1,0 +1,37 @@
+{
+  "contract_id": "0x8cb2c3264aa93267be4f11a3a7f87c05a41c3ba9",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.8.19",
+  "solidity_version": "^0.8.19",
+  "optimization_enabled": true,
+  "optimization_runs": 1000,
+  "protocol_type": "Lending",
+  "protocol_name": "AlphaFinance",
+  "total_value_locked_usd": 20548478,
+  "deployment_date": "2024-12-20",
+  "audit_status": "OpenZeppelin_2022",
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2024-12-29",
+    "exploit_value_usd": 2437763,
+    "exploit_tx": "0xe7adb1190dbc93113d6599acd561fb95e03dc7635fc31f74ca7e7f6fea391078"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "block_number_manipulation",
+      "severity": "medium",
+      "confidence": 0.86,
+      "line_numbers": [
+        54,
+        69
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

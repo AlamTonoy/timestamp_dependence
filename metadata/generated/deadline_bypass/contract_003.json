@@ -1,0 +1,34 @@
+{
+  "contract_id": "0x502b35741cdc4d52129b938bc50c3d8a42fb8963",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.6.12",
+  "solidity_version": "^0.6.12",
+  "optimization_enabled": false,
+  "optimization_runs": 1000,
+  "protocol_type": "Lending",
+  "protocol_name": "BetaFinance",
+  "total_value_locked_usd": 27388757,
+  "deployment_date": "2021-01-17",
+  "audit_status": null,
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "deadline_bypass",
+      "severity": "high",
+      "confidence": 0.8,
+      "line_numbers": [
+        11,
+        22
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

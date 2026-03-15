@@ -1,0 +1,37 @@
+{
+  "contract_id": "0xc0121fce9cd98905a7334efa0b5c6ba5bf03edf9",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.8.20",
+  "solidity_version": "^0.8.20",
+  "optimization_enabled": false,
+  "optimization_runs": 1000,
+  "protocol_type": "Lending",
+  "protocol_name": "AlphaLend",
+  "total_value_locked_usd": 15375011,
+  "deployment_date": "2020-01-18",
+  "audit_status": "Trail_of_Bits_2024",
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2024-07-13",
+    "exploit_value_usd": 3689128,
+    "exploit_tx": "0x7cdcb09eedbc09120c55dcd5bf00cf07eedab7874ba6d67a3e9ca6f89eb70369"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "deadline_bypass",
+      "severity": "high",
+      "confidence": 0.93,
+      "line_numbers": [
+        49,
+        61
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

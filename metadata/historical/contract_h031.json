@@ -1,0 +1,37 @@
+{
+  "contract_id": "0xd48cfe208c0c72bdf4904b6c7eae6d6c2bf91d13",
+  "collection_source": "historical_attack_pattern",
+  "compiler_version": "0.8.7",
+  "solidity_version": "^0.8.7",
+  "optimization_enabled": true,
+  "optimization_runs": 1000,
+  "protocol_type": "AMM",
+  "protocol_name": "SushiFork",
+  "total_value_locked_usd": 4396682,
+  "deployment_date": "2018-02-06",
+  "audit_status": "Certik_2022",
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2019-12-14",
+    "exploit_value_usd": 2732617,
+    "exploit_tx": "0x51f646f82dfac3814d655a4b2fe2968d101d612ab01bdd63e004d7bb156ed642"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "time_window_attack",
+      "severity": "medium",
+      "confidence": 0.94,
+      "line_numbers": [
+        34,
+        58
+      ],
+      "cwe": [
+        "CWE-362"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}
