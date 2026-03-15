@@ -1,0 +1,34 @@
+{
+  "contract_id": "0xe77ecef1f490e6112ecb4241cc570544c126bc8c",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.6.12",
+  "solidity_version": "^0.6.12",
+  "optimization_enabled": false,
+  "optimization_runs": 1000,
+  "protocol_type": "Lottery",
+  "protocol_name": "GammaLuck",
+  "total_value_locked_usd": 5344938,
+  "deployment_date": "2023-01-05",
+  "audit_status": null,
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "miner_scheduled_execution",
+      "severity": "medium",
+      "confidence": 0.93,
+      "line_numbers": [
+        64,
+        70
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

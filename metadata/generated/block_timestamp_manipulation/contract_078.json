@@ -1,0 +1,35 @@
+{
+  "contract_id": "0x80782af16b58df5d3b3079dbbfa85de258cdb59b",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.8.0",
+  "solidity_version": "^0.8.0",
+  "optimization_enabled": true,
+  "optimization_runs": 500,
+  "protocol_type": "NFT",
+  "protocol_name": "OmegaGallery",
+  "total_value_locked_usd": 49423315,
+  "deployment_date": "2020-11-01",
+  "audit_status": "Quantstamp_2023",
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "block_timestamp_manipulation",
+      "severity": "medium",
+      "confidence": 1.0,
+      "line_numbers": [
+        70,
+        79
+      ],
+      "cwe": [
+        "CWE-829",
+        "CWE-330"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

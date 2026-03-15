@@ -1,0 +1,37 @@
+{
+  "contract_id": "0x3b1abf8705703d6005d1bad5369509444f9af56e",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.8.21",
+  "solidity_version": "^0.8.21",
+  "optimization_enabled": false,
+  "optimization_runs": 200,
+  "protocol_type": "Lending",
+  "protocol_name": "NovaFinance",
+  "total_value_locked_usd": 15915174,
+  "deployment_date": "2022-11-03",
+  "audit_status": "Halborn_2024",
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2023-01-27",
+    "exploit_value_usd": 2522020,
+    "exploit_tx": "0x91e4f3d33f71f02bc2dfbd3fc2ca01d1b47b654399b7e7461613191a336f819d"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "deadline_bypass",
+      "severity": "high",
+      "confidence": 0.95,
+      "line_numbers": [
+        16,
+        28
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

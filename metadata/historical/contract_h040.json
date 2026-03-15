@@ -1,0 +1,38 @@
+{
+  "contract_id": "0xbc1f5c1f22bf68917b2b11dc3bfe117b94581687",
+  "collection_source": "historical_attack_pattern",
+  "compiler_version": "0.8.7",
+  "solidity_version": "^0.8.7",
+  "optimization_enabled": true,
+  "optimization_runs": 1000,
+  "protocol_type": "NFT",
+  "protocol_name": "NFTFactory",
+  "total_value_locked_usd": 5383026,
+  "deployment_date": "2021-06-11",
+  "audit_status": "Quantstamp_2021",
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2021-08-24",
+    "exploit_value_usd": 2916991,
+    "exploit_tx": "0x7603b6b28518f33c0588ea32e4b09a4a91c7fe0a0f95ee5beafeb166678cefd1"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "block_timestamp_manipulation",
+      "severity": "high",
+      "confidence": 0.96,
+      "line_numbers": [
+        41,
+        83
+      ],
+      "cwe": [
+        "CWE-829",
+        "CWE-330"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

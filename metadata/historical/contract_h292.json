@@ -1,0 +1,37 @@
+{
+  "contract_id": "0x0f553b35f0c1e7e42058c317793d6e1cadc7065c",
+  "collection_source": "historical_attack_pattern",
+  "compiler_version": "0.8.17",
+  "solidity_version": "^0.8.17",
+  "optimization_enabled": true,
+  "optimization_runs": 500,
+  "protocol_type": "Lending",
+  "protocol_name": "IronFork",
+  "total_value_locked_usd": 6631680,
+  "deployment_date": "2019-03-02",
+  "audit_status": "Quantstamp_2021",
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2019-04-28",
+    "exploit_value_usd": 5815961,
+    "exploit_tx": "0x7a657dae9af466aa693a2f7de0f9663fd2c951b78a8becb006e8e2d4ea5ddf62"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "deadline_bypass",
+      "severity": "high",
+      "confidence": 0.98,
+      "line_numbers": [
+        41,
+        84
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

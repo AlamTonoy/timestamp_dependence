@@ -1,0 +1,35 @@
+{
+  "contract_id": "0xa1dd18f456304131e1f2fde9098af7bba9ac7666",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.8.19",
+  "solidity_version": "^0.8.19",
+  "optimization_enabled": false,
+  "optimization_runs": 500,
+  "protocol_type": "Bridge",
+  "protocol_name": "AlphaBridge",
+  "total_value_locked_usd": 15099308,
+  "deployment_date": "2019-08-22",
+  "audit_status": "OpenZeppelin_2022",
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "block_timestamp_manipulation",
+      "severity": "medium",
+      "confidence": 0.77,
+      "line_numbers": [
+        66,
+        83
+      ],
+      "cwe": [
+        "CWE-829",
+        "CWE-330"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "contract_id": "0x9d1814ffd7ccd7a2b96f89a757ee14c19fbb3661",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.8.7",
+  "solidity_version": "^0.8.7",
+  "optimization_enabled": true,
+  "optimization_runs": 200,
+  "protocol_type": "Staking",
+  "protocol_name": "OmegaYield",
+  "total_value_locked_usd": 9173264,
+  "deployment_date": "2023-06-23",
+  "audit_status": "Certik_2023",
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "deadline_bypass",
+      "severity": "high",
+      "confidence": 0.83,
+      "line_numbers": [
+        39,
+        52
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "contract_id": "0x1cd172181c44e6bc16681bce113b1bb47da356c1",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.6.12",
+  "solidity_version": "^0.6.12",
+  "optimization_enabled": false,
+  "optimization_runs": 200,
+  "protocol_type": "AMM",
+  "protocol_name": "GammaPool",
+  "total_value_locked_usd": 28573350,
+  "deployment_date": "2022-12-14",
+  "audit_status": "Certik_2023",
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "timestamp_overflow",
+      "severity": "low",
+      "confidence": 0.96,
+      "line_numbers": [
+        57,
+        74
+      ],
+      "cwe": [
+        "CWE-190"
+      ],
+      "swc": [
+        "SWC-116",
+        "SWC-101"
+      ]
+    }
+  }
+}

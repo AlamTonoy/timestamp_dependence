@@ -1,0 +1,34 @@
+{
+  "contract_id": "0x10e299753444d59f3f9f80385da119ca04a7216d",
+  "collection_source": "historical_attack_pattern",
+  "compiler_version": "0.8.7",
+  "solidity_version": "^0.8.7",
+  "optimization_enabled": false,
+  "optimization_runs": 200,
+  "protocol_type": "DAO",
+  "protocol_name": "VoteDAO",
+  "total_value_locked_usd": 81605,
+  "deployment_date": "2016-12-19",
+  "audit_status": "Halborn_2023",
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "vesting_schedule_manipulation",
+      "severity": "high",
+      "confidence": 1.0,
+      "line_numbers": [
+        12,
+        82
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

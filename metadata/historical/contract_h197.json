@@ -1,0 +1,37 @@
+{
+  "contract_id": "0xfb701bc4b37b61a7e80c8bb068679f206e80ae2b",
+  "collection_source": "historical_attack_pattern",
+  "compiler_version": "0.4.25",
+  "solidity_version": "^0.4.25",
+  "optimization_enabled": true,
+  "optimization_runs": 200,
+  "protocol_type": "Staking",
+  "protocol_name": "RewardVault",
+  "total_value_locked_usd": 14070980,
+  "deployment_date": "2021-08-18",
+  "audit_status": "Peckshield_2022",
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2023-05-19",
+    "exploit_value_usd": 8474352,
+    "exploit_tx": "0x7b1c1d9060388c69d573801e0614106a924fd623d0298312e1b75be3823d1cae"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "vesting_schedule_manipulation",
+      "severity": "high",
+      "confidence": 0.98,
+      "line_numbers": [
+        41,
+        67
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

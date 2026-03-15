@@ -1,0 +1,35 @@
+{
+  "contract_id": "0x28c3f64a7feba2c74e7e53746654c04fa0e025b8",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.8.21",
+  "solidity_version": "^0.8.21",
+  "optimization_enabled": true,
+  "optimization_runs": 1000,
+  "protocol_type": "AMM",
+  "protocol_name": "BetaPool",
+  "total_value_locked_usd": 30217516,
+  "deployment_date": "2022-02-06",
+  "audit_status": "Halborn_2024",
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "timestamp_overflow",
+      "severity": "low",
+      "confidence": 0.77,
+      "line_numbers": [
+        72,
+        89
+      ],
+      "cwe": [
+        "CWE-190"
+      ],
+      "swc": [
+        "SWC-116",
+        "SWC-101"
+      ]
+    }
+  }
+}

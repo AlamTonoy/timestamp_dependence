@@ -1,0 +1,37 @@
+{
+  "contract_id": "0x0c172485ae8c640b6a74532dc236f783a0e24248",
+  "collection_source": "historical_attack_pattern",
+  "compiler_version": "0.4.25",
+  "solidity_version": "^0.4.25",
+  "optimization_enabled": true,
+  "optimization_runs": 200,
+  "protocol_type": "Bridge",
+  "protocol_name": "AnyswapFork",
+  "total_value_locked_usd": 245720852,
+  "deployment_date": "2016-06-17",
+  "audit_status": "Peckshield_2022",
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2020-03-03",
+    "exploit_value_usd": 625000000,
+    "exploit_tx": "0x8f35e255dc7c296297bd26586b7ba7ca86dca79ac73d62251aa38863213df684"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "time_window_attack",
+      "severity": "high",
+      "confidence": 0.98,
+      "line_numbers": [
+        27,
+        51
+      ],
+      "cwe": [
+        "CWE-362"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

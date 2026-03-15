@@ -1,0 +1,35 @@
+{
+  "contract_id": "0x984ff318b7c0ba5cfe64693b62578bdd483bc3e0",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.8.17",
+  "solidity_version": "^0.8.17",
+  "optimization_enabled": true,
+  "optimization_runs": 200,
+  "protocol_type": "DAO",
+  "protocol_name": "BetaDAO",
+  "total_value_locked_usd": 18198416,
+  "deployment_date": "2023-01-22",
+  "audit_status": "ConsenSys_Diligence_2023",
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "timestamp_overflow",
+      "severity": "low",
+      "confidence": 0.88,
+      "line_numbers": [
+        66,
+        85
+      ],
+      "cwe": [
+        "CWE-190"
+      ],
+      "swc": [
+        "SWC-116",
+        "SWC-101"
+      ]
+    }
+  }
+}

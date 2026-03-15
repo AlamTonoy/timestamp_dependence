@@ -1,0 +1,34 @@
+{
+  "contract_id": "0x57d9bbfaff0d5286ab236615a3461ff4d8f6133f",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.8.21",
+  "solidity_version": "^0.8.21",
+  "optimization_enabled": true,
+  "optimization_runs": 500,
+  "protocol_type": "Options",
+  "protocol_name": "GammaHedge",
+  "total_value_locked_usd": 22664869,
+  "deployment_date": "2024-11-01",
+  "audit_status": null,
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "block_number_manipulation",
+      "severity": "medium",
+      "confidence": 0.81,
+      "line_numbers": [
+        12,
+        31
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

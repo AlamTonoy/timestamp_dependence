@@ -1,0 +1,35 @@
+{
+  "contract_id": "0x5b9e3738e4695d6d1ed7691a67cbcc9baf95fe2a",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.8.7",
+  "solidity_version": "^0.8.7",
+  "optimization_enabled": true,
+  "optimization_runs": 500,
+  "protocol_type": "Vault",
+  "protocol_name": "AlphaTreasury",
+  "total_value_locked_usd": 25611595,
+  "deployment_date": "2024-06-05",
+  "audit_status": "ConsenSys_Diligence_2023",
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "timestamp_overflow",
+      "severity": "low",
+      "confidence": 0.98,
+      "line_numbers": [
+        73,
+        81
+      ],
+      "cwe": [
+        "CWE-190"
+      ],
+      "swc": [
+        "SWC-116",
+        "SWC-101"
+      ]
+    }
+  }
+}

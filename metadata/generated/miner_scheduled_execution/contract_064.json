@@ -1,0 +1,34 @@
+{
+  "contract_id": "0xa8e9ee086aff6be4913c6804c5126070b972e87c",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.8.7",
+  "solidity_version": "^0.8.7",
+  "optimization_enabled": false,
+  "optimization_runs": 1000,
+  "protocol_type": "Options",
+  "protocol_name": "NovaHedge",
+  "total_value_locked_usd": 24477625,
+  "deployment_date": "2021-08-21",
+  "audit_status": null,
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "miner_scheduled_execution",
+      "severity": "medium",
+      "confidence": 0.84,
+      "line_numbers": [
+        49,
+        63
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

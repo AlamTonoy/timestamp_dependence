@@ -1,0 +1,34 @@
+{
+  "contract_id": "0x9bd0515fdf4e6826faeed59bb2e9ce8ebb88661c",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.8.10",
+  "solidity_version": "^0.8.10",
+  "optimization_enabled": true,
+  "optimization_runs": 500,
+  "protocol_type": "Staking",
+  "protocol_name": "OmegaStake",
+  "total_value_locked_usd": 21646178,
+  "deployment_date": "2022-09-04",
+  "audit_status": "Hacken_2024",
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "vesting_schedule_manipulation",
+      "severity": "high",
+      "confidence": 0.88,
+      "line_numbers": [
+        46,
+        60
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

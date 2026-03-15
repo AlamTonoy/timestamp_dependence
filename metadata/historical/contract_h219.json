@@ -1,0 +1,37 @@
+{
+  "contract_id": "0x500105d2480663aabf3100f2c31d71c7ff15fea5",
+  "collection_source": "historical_attack_pattern",
+  "compiler_version": "0.7.6",
+  "solidity_version": "^0.7.6",
+  "optimization_enabled": false,
+  "optimization_runs": 200,
+  "protocol_type": "Staking",
+  "protocol_name": "StakePool",
+  "total_value_locked_usd": 6781264,
+  "deployment_date": "2016-02-18",
+  "audit_status": "OpenZeppelin_2021",
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2023-02-02",
+    "exploit_value_usd": 8369276,
+    "exploit_tx": "0x020eee20facbf3df57f5cb11675de7ae6e8c4fd472c841798abb51e230b9aac0"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "vesting_schedule_manipulation",
+      "severity": "high",
+      "confidence": 0.86,
+      "line_numbers": [
+        47,
+        78
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "contract_id": "0xe45c377ffa53652839de80ddb797c045fab3d496",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.8.0",
+  "solidity_version": "^0.8.0",
+  "optimization_enabled": true,
+  "optimization_runs": 200,
+  "protocol_type": "Lottery",
+  "protocol_name": "OmegaFortune",
+  "total_value_locked_usd": 25839706,
+  "deployment_date": "2023-01-25",
+  "audit_status": "Trail_of_Bits_2023",
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "vesting_schedule_manipulation",
+      "severity": "high",
+      "confidence": 0.91,
+      "line_numbers": [
+        56,
+        63
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "contract_id": "0x1220f4e91a56aee8d6dd4f6fccdc72f0ef82ce98",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.8.7",
+  "solidity_version": "^0.8.7",
+  "optimization_enabled": false,
+  "optimization_runs": 200,
+  "protocol_type": "Bridge",
+  "protocol_name": "DeltaPortal",
+  "total_value_locked_usd": 27781874,
+  "deployment_date": "2021-10-01",
+  "audit_status": "OpenZeppelin_2022",
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "miner_scheduled_execution",
+      "severity": "medium",
+      "confidence": 0.86,
+      "line_numbers": [
+        38,
+        50
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

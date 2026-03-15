@@ -1,0 +1,37 @@
+{
+  "contract_id": "0x1e524f5459eaf42a2a1b9e6f0aaa3d345c2d6b22",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.7.6",
+  "solidity_version": "^0.7.6",
+  "optimization_enabled": false,
+  "optimization_runs": 500,
+  "protocol_type": "Staking",
+  "protocol_name": "BetaStake",
+  "total_value_locked_usd": 31432245,
+  "deployment_date": "2022-12-02",
+  "audit_status": "OpenZeppelin_2022",
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2023-12-18",
+    "exploit_value_usd": 3255876,
+    "exploit_tx": "0xd663d80b86ab381e7b36e422731a1c777664cd804e010076a81796c25b02a01b"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "block_number_manipulation",
+      "severity": "medium",
+      "confidence": 0.78,
+      "line_numbers": [
+        45,
+        65
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

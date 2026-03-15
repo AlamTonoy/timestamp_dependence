@@ -1,0 +1,35 @@
+{
+  "contract_id": "0x79fe296ef1f63a3a4ad436e343907f39898cceb4",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.8.20",
+  "solidity_version": "^0.8.20",
+  "optimization_enabled": false,
+  "optimization_runs": 500,
+  "protocol_type": "Staking",
+  "protocol_name": "GammaFarm",
+  "total_value_locked_usd": 11316824,
+  "deployment_date": "2024-09-02",
+  "audit_status": null,
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "block_timestamp_manipulation",
+      "severity": "medium",
+      "confidence": 0.91,
+      "line_numbers": [
+        64,
+        73
+      ],
+      "cwe": [
+        "CWE-829",
+        "CWE-330"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

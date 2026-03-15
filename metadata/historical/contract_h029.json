@@ -1,0 +1,37 @@
+{
+  "contract_id": "0xef08ebbd2c4a95ce3197b1ca670313ba887090a8",
+  "collection_source": "historical_attack_pattern",
+  "compiler_version": "0.8.17",
+  "solidity_version": "^0.8.17",
+  "optimization_enabled": false,
+  "optimization_runs": 200,
+  "protocol_type": "Lottery",
+  "protocol_name": "GovernMental",
+  "total_value_locked_usd": 41741,
+  "deployment_date": "2021-02-14",
+  "audit_status": "Peckshield_2022",
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2023-01-15",
+    "exploit_value_usd": 32386,
+    "exploit_tx": "0xb65c71f20da52c3397ddf0be94a124e6e277308fe1d45e899fa08e4a9da0226b"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "block_number_manipulation",
+      "severity": "medium",
+      "confidence": 0.9,
+      "line_numbers": [
+        35,
+        52
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

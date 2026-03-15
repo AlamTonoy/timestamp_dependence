@@ -1,0 +1,34 @@
+{
+  "contract_id": "0x4539552ea1d0df8cfa8609c8c9c24d54ab7af13e",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.8.17",
+  "solidity_version": "^0.8.17",
+  "optimization_enabled": false,
+  "optimization_runs": 500,
+  "protocol_type": "Lottery",
+  "protocol_name": "BetaFortune",
+  "total_value_locked_usd": 48407321,
+  "deployment_date": "2019-11-09",
+  "audit_status": "Hacken_2024",
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "time_window_attack",
+      "severity": "medium",
+      "confidence": 0.83,
+      "line_numbers": [
+        16,
+        28
+      ],
+      "cwe": [
+        "CWE-362"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

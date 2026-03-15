@@ -1,0 +1,37 @@
+{
+  "contract_id": "0xb10727f24a6054355d71194c05d110cb773c99d3",
+  "collection_source": "historical_attack_pattern",
+  "compiler_version": "0.4.25",
+  "solidity_version": "^0.4.25",
+  "optimization_enabled": true,
+  "optimization_runs": 500,
+  "protocol_type": "DAO",
+  "protocol_name": "VoteDAO",
+  "total_value_locked_usd": 86841,
+  "deployment_date": "2023-10-21",
+  "audit_status": "Trail_of_Bits_2021",
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2024-04-30",
+    "exploit_value_usd": 1,
+    "exploit_tx": "0xfeff89cf169f06d8e273e70ee30ccddc2dd48f9ceb587988114188f4d5b86624"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "miner_scheduled_execution",
+      "severity": "medium",
+      "confidence": 0.97,
+      "line_numbers": [
+        30,
+        67
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "contract_id": "0x75b5eb622d675282e2e74074dc6d573ff4107152",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.8.7",
+  "solidity_version": "^0.8.7",
+  "optimization_enabled": true,
+  "optimization_runs": 200,
+  "protocol_type": "Staking",
+  "protocol_name": "OmegaYield",
+  "total_value_locked_usd": 11543713,
+  "deployment_date": "2021-05-23",
+  "audit_status": "OpenZeppelin_2022",
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "timestamp_overflow",
+      "severity": "low",
+      "confidence": 0.89,
+      "line_numbers": [
+        19,
+        26
+      ],
+      "cwe": [
+        "CWE-190"
+      ],
+      "swc": [
+        "SWC-116",
+        "SWC-101"
+      ]
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "contract_id": "0x7708fadef6c0d9b8b90d3157f9265313f5739ead",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.8.0",
+  "solidity_version": "^0.8.0",
+  "optimization_enabled": true,
+  "optimization_runs": 200,
+  "protocol_type": "AMM",
+  "protocol_name": "AlphaSwap",
+  "total_value_locked_usd": 10532854,
+  "deployment_date": "2023-11-11",
+  "audit_status": "Certik_2023",
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "timestamp_overflow",
+      "severity": "low",
+      "confidence": 0.94,
+      "line_numbers": [
+        22,
+        29
+      ],
+      "cwe": [
+        "CWE-190"
+      ],
+      "swc": [
+        "SWC-116",
+        "SWC-101"
+      ]
+    }
+  }
+}

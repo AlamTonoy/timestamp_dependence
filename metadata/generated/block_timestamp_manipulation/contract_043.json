@@ -1,0 +1,35 @@
+{
+  "contract_id": "0x12034621e6b9b28b79c16aaa40a3a0288d72a7cd",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.7.6",
+  "solidity_version": "^0.7.6",
+  "optimization_enabled": true,
+  "optimization_runs": 200,
+  "protocol_type": "Staking",
+  "protocol_name": "AlphaStake",
+  "total_value_locked_usd": 48607878,
+  "deployment_date": "2020-06-12",
+  "audit_status": "Peckshield_2024",
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "block_timestamp_manipulation",
+      "severity": "medium",
+      "confidence": 0.93,
+      "line_numbers": [
+        78,
+        83
+      ],
+      "cwe": [
+        "CWE-829",
+        "CWE-330"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

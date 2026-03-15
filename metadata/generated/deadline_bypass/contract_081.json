@@ -1,0 +1,37 @@
+{
+  "contract_id": "0x04d64d8884c831507a7e991d4983ef4ad3f916a3",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.8.20",
+  "solidity_version": "^0.8.20",
+  "optimization_enabled": false,
+  "optimization_runs": 200,
+  "protocol_type": "AMM",
+  "protocol_name": "ZetaPool",
+  "total_value_locked_usd": 40056931,
+  "deployment_date": "2023-04-04",
+  "audit_status": "ConsenSys_Diligence_2023",
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2023-04-10",
+    "exploit_value_usd": 2135761,
+    "exploit_tx": "0x19a1577e25cff1686bc6be131f42dbd3fae5b47824cf286f1e10b8044845f5c7"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "deadline_bypass",
+      "severity": "high",
+      "confidence": 0.99,
+      "line_numbers": [
+        32,
+        52
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

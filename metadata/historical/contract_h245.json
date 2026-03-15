@@ -1,0 +1,38 @@
+{
+  "contract_id": "0x3f6b9ac7ccf5b07f6f1dedecf008fc54c78a09b0",
+  "collection_source": "historical_attack_pattern",
+  "compiler_version": "0.4.25",
+  "solidity_version": "^0.4.25",
+  "optimization_enabled": false,
+  "optimization_runs": 200,
+  "protocol_type": "Lottery",
+  "protocol_name": "CryptoMillions",
+  "total_value_locked_usd": 2202986,
+  "deployment_date": "2020-01-03",
+  "audit_status": "Certik_2022",
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2023-08-30",
+    "exploit_value_usd": 1224612,
+    "exploit_tx": "0x808e474fa706041c2ddd69453d458919de2999370e2814becd15b612774b9321"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "block_timestamp_manipulation",
+      "severity": "high",
+      "confidence": 0.86,
+      "line_numbers": [
+        11,
+        75
+      ],
+      "cwe": [
+        "CWE-829",
+        "CWE-330"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

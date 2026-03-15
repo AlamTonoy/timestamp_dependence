@@ -1,0 +1,35 @@
+{
+  "contract_id": "0xae7f4d57e5312af208b988c351f67e35d17cd6e9",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.8.0",
+  "solidity_version": "^0.8.0",
+  "optimization_enabled": true,
+  "optimization_runs": 500,
+  "protocol_type": "NFT",
+  "protocol_name": "ZetaArt",
+  "total_value_locked_usd": 15164692,
+  "deployment_date": "2024-07-25",
+  "audit_status": "Trail_of_Bits_2024",
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "timestamp_overflow",
+      "severity": "low",
+      "confidence": 0.87,
+      "line_numbers": [
+        14,
+        30
+      ],
+      "cwe": [
+        "CWE-190"
+      ],
+      "swc": [
+        "SWC-116",
+        "SWC-101"
+      ]
+    }
+  }
+}

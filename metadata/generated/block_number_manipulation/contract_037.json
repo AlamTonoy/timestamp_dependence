@@ -1,0 +1,34 @@
+{
+  "contract_id": "0x9312bf44f51260c7be881ab531c3cad3ab32761a",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.8.21",
+  "solidity_version": "^0.8.21",
+  "optimization_enabled": false,
+  "optimization_runs": 200,
+  "protocol_type": "DAO",
+  "protocol_name": "BetaDAO",
+  "total_value_locked_usd": 1674149,
+  "deployment_date": "2023-08-15",
+  "audit_status": "OpenZeppelin_2022",
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "block_number_manipulation",
+      "severity": "medium",
+      "confidence": 0.8,
+      "line_numbers": [
+        36,
+        41
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

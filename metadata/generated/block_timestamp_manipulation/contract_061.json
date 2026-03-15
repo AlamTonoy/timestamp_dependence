@@ -1,0 +1,38 @@
+{
+  "contract_id": "0x886ad5f536b250d0d94f005b49fd115a3b88b8bd",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.7.6",
+  "solidity_version": "^0.7.6",
+  "optimization_enabled": false,
+  "optimization_runs": 500,
+  "protocol_type": "Lottery",
+  "protocol_name": "BetaJackpot",
+  "total_value_locked_usd": 25864249,
+  "deployment_date": "2019-03-06",
+  "audit_status": "OpenZeppelin_2022",
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2020-01-05",
+    "exploit_value_usd": 587646,
+    "exploit_tx": "0x8ef2dbd616dfaca814a69254ac5c05f84df3fffc5797915c7ddb7d2e2592e20f"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "block_timestamp_manipulation",
+      "severity": "medium",
+      "confidence": 0.9,
+      "line_numbers": [
+        44,
+        62
+      ],
+      "cwe": [
+        "CWE-829",
+        "CWE-330"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

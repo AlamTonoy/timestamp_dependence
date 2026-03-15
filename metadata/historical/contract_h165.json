@@ -1,0 +1,35 @@
+{
+  "contract_id": "0x5a250be61445f51d00aaa87ccfd1fbef898409c1",
+  "collection_source": "historical_attack_pattern",
+  "compiler_version": "0.4.24",
+  "solidity_version": "^0.4.24",
+  "optimization_enabled": true,
+  "optimization_runs": 1000,
+  "protocol_type": "Vault",
+  "protocol_name": "EthVault",
+  "total_value_locked_usd": 77030,
+  "deployment_date": "2019-06-19",
+  "audit_status": "Quantstamp_2021",
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "timestamp_overflow",
+      "severity": "low",
+      "confidence": 0.87,
+      "line_numbers": [
+        45,
+        75
+      ],
+      "cwe": [
+        "CWE-190"
+      ],
+      "swc": [
+        "SWC-101",
+        "SWC-116"
+      ]
+    }
+  }
+}

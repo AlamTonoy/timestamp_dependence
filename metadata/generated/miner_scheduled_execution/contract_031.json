@@ -1,0 +1,34 @@
+{
+  "contract_id": "0x1215f5df3712014820079f1b73047a9cf886ab70",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.8.19",
+  "solidity_version": "^0.8.19",
+  "optimization_enabled": false,
+  "optimization_runs": 500,
+  "protocol_type": "Bridge",
+  "protocol_name": "AlphaPortal",
+  "total_value_locked_usd": 8906817,
+  "deployment_date": "2019-03-19",
+  "audit_status": "ConsenSys_Diligence_2023",
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "miner_scheduled_execution",
+      "severity": "medium",
+      "confidence": 0.99,
+      "line_numbers": [
+        15,
+        31
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

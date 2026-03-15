@@ -1,0 +1,34 @@
+{
+  "contract_id": "0x5ead6bf1ea88ffae99a73c679671f6566b6106dc",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.8.10",
+  "solidity_version": "^0.8.10",
+  "optimization_enabled": false,
+  "optimization_runs": 500,
+  "protocol_type": "NFT",
+  "protocol_name": "ZetaMint",
+  "total_value_locked_usd": 42378924,
+  "deployment_date": "2020-10-10",
+  "audit_status": "Certik_2023",
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "deadline_bypass",
+      "severity": "high",
+      "confidence": 0.96,
+      "line_numbers": [
+        53,
+        69
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

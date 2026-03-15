@@ -1,0 +1,35 @@
+{
+  "contract_id": "0xc8cd0c8dc0dc83188004cbb5a4eafcdc522a7062",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.8.10",
+  "solidity_version": "^0.8.10",
+  "optimization_enabled": true,
+  "optimization_runs": 1000,
+  "protocol_type": "Vault",
+  "protocol_name": "OmegaSafe",
+  "total_value_locked_usd": 5210091,
+  "deployment_date": "2021-09-22",
+  "audit_status": "OpenZeppelin_2022",
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "block_timestamp_manipulation",
+      "severity": "medium",
+      "confidence": 0.94,
+      "line_numbers": [
+        66,
+        74
+      ],
+      "cwe": [
+        "CWE-829",
+        "CWE-330"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

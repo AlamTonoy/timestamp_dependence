@@ -1,0 +1,34 @@
+{
+  "contract_id": "0x2c5286d8f4114519aa70c335635d2e5c1c65afad",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.8.17",
+  "solidity_version": "^0.8.17",
+  "optimization_enabled": true,
+  "optimization_runs": 1000,
+  "protocol_type": "Insurance",
+  "protocol_name": "AlphaShield",
+  "total_value_locked_usd": 897305,
+  "deployment_date": "2023-11-07",
+  "audit_status": "Hacken_2024",
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "time_window_attack",
+      "severity": "medium",
+      "confidence": 0.81,
+      "line_numbers": [
+        80,
+        92
+      ],
+      "cwe": [
+        "CWE-362"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

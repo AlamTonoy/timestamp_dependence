@@ -1,0 +1,34 @@
+{
+  "contract_id": "0xf8ca51ecf4b95f6896b84ed23d454bf29d9638bd",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.8.20",
+  "solidity_version": "^0.8.20",
+  "optimization_enabled": true,
+  "optimization_runs": 1000,
+  "protocol_type": "Lending",
+  "protocol_name": "BetaProtocol",
+  "total_value_locked_usd": 7715164,
+  "deployment_date": "2022-05-15",
+  "audit_status": "Trail_of_Bits_2023",
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "time_window_attack",
+      "severity": "medium",
+      "confidence": 1.0,
+      "line_numbers": [
+        35,
+        44
+      ],
+      "cwe": [
+        "CWE-362"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

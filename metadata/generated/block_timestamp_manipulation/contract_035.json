@@ -1,0 +1,35 @@
+{
+  "contract_id": "0x41ba851661c15b35d0e8458277d28edbeee1f51c",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.8.17",
+  "solidity_version": "^0.8.17",
+  "optimization_enabled": false,
+  "optimization_runs": 200,
+  "protocol_type": "Options",
+  "protocol_name": "AlphaOptions",
+  "total_value_locked_usd": 13093112,
+  "deployment_date": "2019-12-04",
+  "audit_status": null,
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "block_timestamp_manipulation",
+      "severity": "medium",
+      "confidence": 0.97,
+      "line_numbers": [
+        64,
+        71
+      ],
+      "cwe": [
+        "CWE-829",
+        "CWE-330"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

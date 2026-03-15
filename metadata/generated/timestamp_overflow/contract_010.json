@@ -1,0 +1,35 @@
+{
+  "contract_id": "0xce84dcc280147357b0434bed2593f0e2b7349c6e",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.8.17",
+  "solidity_version": "^0.8.17",
+  "optimization_enabled": false,
+  "optimization_runs": 200,
+  "protocol_type": "Vault",
+  "protocol_name": "OmegaSafe",
+  "total_value_locked_usd": 32596038,
+  "deployment_date": "2019-04-28",
+  "audit_status": null,
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "timestamp_overflow",
+      "severity": "low",
+      "confidence": 0.94,
+      "line_numbers": [
+        49,
+        60
+      ],
+      "cwe": [
+        "CWE-190"
+      ],
+      "swc": [
+        "SWC-116",
+        "SWC-101"
+      ]
+    }
+  }
+}

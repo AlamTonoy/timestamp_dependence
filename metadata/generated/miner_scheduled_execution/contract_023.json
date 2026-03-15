@@ -1,0 +1,34 @@
+{
+  "contract_id": "0x0b4aa333d766989d8242daa646a1e06252cd6915",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.7.6",
+  "solidity_version": "^0.7.6",
+  "optimization_enabled": false,
+  "optimization_runs": 1000,
+  "protocol_type": "Lottery",
+  "protocol_name": "GammaJackpot",
+  "total_value_locked_usd": 15977023,
+  "deployment_date": "2020-01-29",
+  "audit_status": "Trail_of_Bits_2024",
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "miner_scheduled_execution",
+      "severity": "medium",
+      "confidence": 0.85,
+      "line_numbers": [
+        46,
+        52
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

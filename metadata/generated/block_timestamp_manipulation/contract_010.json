@@ -1,0 +1,35 @@
+{
+  "contract_id": "0x07b60092cd4952c36fb753ee3e108797b837ee17",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.8.10",
+  "solidity_version": "^0.8.10",
+  "optimization_enabled": false,
+  "optimization_runs": 200,
+  "protocol_type": "Options",
+  "protocol_name": "AlphaDerivatives",
+  "total_value_locked_usd": 35685033,
+  "deployment_date": "2021-08-05",
+  "audit_status": "Halborn_2024",
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "block_timestamp_manipulation",
+      "severity": "medium",
+      "confidence": 0.8,
+      "line_numbers": [
+        54,
+        68
+      ],
+      "cwe": [
+        "CWE-829",
+        "CWE-330"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

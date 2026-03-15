@@ -1,0 +1,34 @@
+{
+  "contract_id": "0xce024b55723f8cf079fe5c8de33dcefe282c2e14",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.6.12",
+  "solidity_version": "^0.6.12",
+  "optimization_enabled": true,
+  "optimization_runs": 200,
+  "protocol_type": "NFT",
+  "protocol_name": "DeltaGallery",
+  "total_value_locked_usd": 25784592,
+  "deployment_date": "2021-04-22",
+  "audit_status": "Trail_of_Bits_2024",
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "miner_scheduled_execution",
+      "severity": "medium",
+      "confidence": 0.93,
+      "line_numbers": [
+        73,
+        89
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

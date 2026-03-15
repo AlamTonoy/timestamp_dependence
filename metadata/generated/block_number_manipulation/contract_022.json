@@ -1,0 +1,34 @@
+{
+  "contract_id": "0x1a9328d35031d9b9d568497ca13153cf6fc437dc",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.8.20",
+  "solidity_version": "^0.8.20",
+  "optimization_enabled": true,
+  "optimization_runs": 200,
+  "protocol_type": "Lottery",
+  "protocol_name": "BetaJackpot",
+  "total_value_locked_usd": 45005326,
+  "deployment_date": "2020-11-23",
+  "audit_status": "Certik_2023",
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "block_number_manipulation",
+      "severity": "medium",
+      "confidence": 0.89,
+      "line_numbers": [
+        48,
+        67
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

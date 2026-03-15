@@ -1,0 +1,34 @@
+{
+  "contract_id": "0xc7b0af467f7e2b514fb37cad83702e54009be8a8",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.8.10",
+  "solidity_version": "^0.8.10",
+  "optimization_enabled": true,
+  "optimization_runs": 1000,
+  "protocol_type": "Options",
+  "protocol_name": "AlphaHedge",
+  "total_value_locked_usd": 46123305,
+  "deployment_date": "2020-08-03",
+  "audit_status": "Certik_2023",
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "deadline_bypass",
+      "severity": "high",
+      "confidence": 0.78,
+      "line_numbers": [
+        31,
+        37
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

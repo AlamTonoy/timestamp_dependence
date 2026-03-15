@@ -1,0 +1,37 @@
+{
+  "contract_id": "0xc4f5ded08ad2175195e9070eb33b8afb93c0f3fc",
+  "collection_source": "historical_attack_pattern",
+  "compiler_version": "0.5.17",
+  "solidity_version": "^0.5.17",
+  "optimization_enabled": true,
+  "optimization_runs": 1000,
+  "protocol_type": "Options",
+  "protocol_name": "OpynFork",
+  "total_value_locked_usd": 452748,
+  "deployment_date": "2019-07-03",
+  "audit_status": "Certik_2022",
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2021-04-16",
+    "exploit_value_usd": 2643218,
+    "exploit_tx": "0xd60d63b714fb646fef05df5290576eb082c12a39aa137fc98b9a205aec2f2cac"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "deadline_bypass",
+      "severity": "high",
+      "confidence": 0.94,
+      "line_numbers": [
+        50,
+        81
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

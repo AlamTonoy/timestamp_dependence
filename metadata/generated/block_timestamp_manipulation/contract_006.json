@@ -1,0 +1,35 @@
+{
+  "contract_id": "0x1176bd4766e72d22c26c0438433dc7bfbaeab762",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.8.20",
+  "solidity_version": "^0.8.20",
+  "optimization_enabled": true,
+  "optimization_runs": 1000,
+  "protocol_type": "NFT",
+  "protocol_name": "AlphaGallery",
+  "total_value_locked_usd": 19308178,
+  "deployment_date": "2021-11-21",
+  "audit_status": "Trail_of_Bits_2023",
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "block_timestamp_manipulation",
+      "severity": "medium",
+      "confidence": 0.75,
+      "line_numbers": [
+        56,
+        62
+      ],
+      "cwe": [
+        "CWE-829",
+        "CWE-330"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

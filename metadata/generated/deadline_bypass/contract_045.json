@@ -1,0 +1,37 @@
+{
+  "contract_id": "0x90c396ebfe774fdd438285e50b39324516028879",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.8.10",
+  "solidity_version": "^0.8.10",
+  "optimization_enabled": true,
+  "optimization_runs": 200,
+  "protocol_type": "DAO",
+  "protocol_name": "AlphaVote",
+  "total_value_locked_usd": 48554246,
+  "deployment_date": "2019-10-02",
+  "audit_status": "Halborn_2024",
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2022-09-14",
+    "exploit_value_usd": 1833538,
+    "exploit_tx": "0x813e2ac723596857bc15aad6ea642f871605db0101e922f87b98c34e43dde678"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "deadline_bypass",
+      "severity": "high",
+      "confidence": 0.85,
+      "line_numbers": [
+        57,
+        63
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

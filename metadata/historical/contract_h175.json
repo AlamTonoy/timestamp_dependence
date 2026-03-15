@@ -1,0 +1,37 @@
+{
+  "contract_id": "0x7af3aa61d87b0f4b63b825245b093890646616fe",
+  "collection_source": "historical_attack_pattern",
+  "compiler_version": "0.6.12",
+  "solidity_version": "^0.6.12",
+  "optimization_enabled": false,
+  "optimization_runs": 500,
+  "protocol_type": "Staking",
+  "protocol_name": "StakePool",
+  "total_value_locked_usd": 228970,
+  "deployment_date": "2018-09-25",
+  "audit_status": "Halborn_2023",
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2021-07-12",
+    "exploit_value_usd": 227332,
+    "exploit_tx": "0x8eb9e9ba9df2e110358fba9b08e2aa6d5e36f8109c9e5498a16a26b09c1986bf"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "vesting_schedule_manipulation",
+      "severity": "high",
+      "confidence": 0.9,
+      "line_numbers": [
+        32,
+        56
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

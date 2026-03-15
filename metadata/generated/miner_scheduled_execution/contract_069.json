@@ -1,0 +1,34 @@
+{
+  "contract_id": "0x0dd7b66e6a5f7144831556eb36bd14646a9a5a8f",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.8.0",
+  "solidity_version": "^0.8.0",
+  "optimization_enabled": true,
+  "optimization_runs": 200,
+  "protocol_type": "Options",
+  "protocol_name": "OmegaDerivatives",
+  "total_value_locked_usd": 45359260,
+  "deployment_date": "2019-09-26",
+  "audit_status": "Hacken_2024",
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "miner_scheduled_execution",
+      "severity": "medium",
+      "confidence": 0.98,
+      "line_numbers": [
+        62,
+        74
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

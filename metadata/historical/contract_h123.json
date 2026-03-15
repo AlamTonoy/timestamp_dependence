@@ -1,0 +1,37 @@
+{
+  "contract_id": "0x5e828a6f3221e59e1da7616577bc582fd696c288",
+  "collection_source": "historical_attack_pattern",
+  "compiler_version": "0.4.24",
+  "solidity_version": "^0.4.24",
+  "optimization_enabled": true,
+  "optimization_runs": 500,
+  "protocol_type": "Staking",
+  "protocol_name": "YieldFarm",
+  "total_value_locked_usd": 513001,
+  "deployment_date": "2019-12-21",
+  "audit_status": "Certik_2022",
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2022-07-21",
+    "exploit_value_usd": 1170736,
+    "exploit_tx": "0xbefe4fd3d247cfad1639e9b485ca4840b9a0def76345cb6a9d144bda6eb84454"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "vesting_schedule_manipulation",
+      "severity": "high",
+      "confidence": 0.88,
+      "line_numbers": [
+        35,
+        56
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

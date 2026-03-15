@@ -1,0 +1,37 @@
+{
+  "contract_id": "0x2675f82e87eee15b1cee71eb28baaca540809c64",
+  "collection_source": "historical_attack_pattern",
+  "compiler_version": "0.8.0",
+  "solidity_version": "^0.8.0",
+  "optimization_enabled": true,
+  "optimization_runs": 200,
+  "protocol_type": "Lending",
+  "protocol_name": "CreamFork",
+  "total_value_locked_usd": 5611519,
+  "deployment_date": "2018-08-21",
+  "audit_status": "Trail_of_Bits_2021",
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2023-12-13",
+    "exploit_value_usd": 19063196,
+    "exploit_tx": "0x54f8a23a5f0d49ec854971e014ee3f6b02c303d3337e2adfd0cd8085f19144cc"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "time_window_attack",
+      "severity": "high",
+      "confidence": 0.95,
+      "line_numbers": [
+        20,
+        93
+      ],
+      "cwe": [
+        "CWE-362"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

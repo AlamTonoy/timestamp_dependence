@@ -1,0 +1,34 @@
+{
+  "contract_id": "0xbcbef13dbae6f9e8b89f6d4d454e5d0e16874619",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.8.19",
+  "solidity_version": "^0.8.19",
+  "optimization_enabled": false,
+  "optimization_runs": 500,
+  "protocol_type": "AMM",
+  "protocol_name": "AlphaPool",
+  "total_value_locked_usd": 45495364,
+  "deployment_date": "2020-09-02",
+  "audit_status": "Hacken_2024",
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "vesting_schedule_manipulation",
+      "severity": "high",
+      "confidence": 0.92,
+      "line_numbers": [
+        72,
+        86
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

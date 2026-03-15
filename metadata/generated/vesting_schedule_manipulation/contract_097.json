@@ -1,0 +1,34 @@
+{
+  "contract_id": "0x2c8a002fe190c115b99ad73942527fa2a46fb919",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.8.10",
+  "solidity_version": "^0.8.10",
+  "optimization_enabled": true,
+  "optimization_runs": 200,
+  "protocol_type": "Vault",
+  "protocol_name": "BetaTreasury",
+  "total_value_locked_usd": 35173947,
+  "deployment_date": "2021-09-13",
+  "audit_status": "Peckshield_2024",
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "vesting_schedule_manipulation",
+      "severity": "high",
+      "confidence": 0.77,
+      "line_numbers": [
+        26,
+        42
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

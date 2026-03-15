@@ -1,0 +1,34 @@
+{
+  "contract_id": "0xe9927f5deb077d7d1cc541c8837383be56b2b697",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.6.12",
+  "solidity_version": "^0.6.12",
+  "optimization_enabled": true,
+  "optimization_runs": 200,
+  "protocol_type": "Staking",
+  "protocol_name": "GammaYield",
+  "total_value_locked_usd": 47403154,
+  "deployment_date": "2024-07-25",
+  "audit_status": "Peckshield_2024",
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "block_number_manipulation",
+      "severity": "medium",
+      "confidence": 0.89,
+      "line_numbers": [
+        61,
+        77
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

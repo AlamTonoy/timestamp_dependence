@@ -1,0 +1,37 @@
+{
+  "contract_id": "0x8e289349427810eb269a3399835fb39f91eda1d6",
+  "collection_source": "historical_attack_pattern",
+  "compiler_version": "0.4.24",
+  "solidity_version": "^0.4.24",
+  "optimization_enabled": false,
+  "optimization_runs": 500,
+  "protocol_type": "Vault",
+  "protocol_name": "AlphaVault",
+  "total_value_locked_usd": 3211608,
+  "deployment_date": "2023-03-29",
+  "audit_status": "Trail_of_Bits_2021",
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2023-06-26",
+    "exploit_value_usd": 1620051,
+    "exploit_tx": "0xdd5a3174aa96827b36ba88396e22d3bbe4e29476705fa6221e9eb27c70b98817"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "deadline_bypass",
+      "severity": "high",
+      "confidence": 0.94,
+      "line_numbers": [
+        27,
+        51
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

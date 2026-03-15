@@ -1,0 +1,37 @@
+{
+  "contract_id": "0x8d441a8341f0d8505209e9a5bbaf3235d91c0be0",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.8.10",
+  "solidity_version": "^0.8.10",
+  "optimization_enabled": true,
+  "optimization_runs": 500,
+  "protocol_type": "Lending",
+  "protocol_name": "DeltaProtocol",
+  "total_value_locked_usd": 14000328,
+  "deployment_date": "2023-12-02",
+  "audit_status": "Quantstamp_2023",
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2024-09-26",
+    "exploit_value_usd": 2695433,
+    "exploit_tx": "0xe9bbe9335b974f72c1ef8d304978a25633071a6d595425e2659fe434a12f8116"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "block_number_manipulation",
+      "severity": "medium",
+      "confidence": 0.8,
+      "line_numbers": [
+        40,
+        47
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "contract_id": "0x31ad994374060bdae5c4aa9429d5680fe53d1bf4",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.8.17",
+  "solidity_version": "^0.8.17",
+  "optimization_enabled": false,
+  "optimization_runs": 500,
+  "protocol_type": "Options",
+  "protocol_name": "ZetaOptions",
+  "total_value_locked_usd": 7749523,
+  "deployment_date": "2022-08-21",
+  "audit_status": "Quantstamp_2023",
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2024-03-09",
+    "exploit_value_usd": 1662717,
+    "exploit_tx": "0x0e0c6f6c4f614f256ae5ee3ea519fe6a955073f33a92228d80f557de14119194"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "vesting_schedule_manipulation",
+      "severity": "high",
+      "confidence": 0.91,
+      "line_numbers": [
+        52,
+        60
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

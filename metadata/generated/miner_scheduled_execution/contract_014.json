@@ -1,0 +1,34 @@
+{
+  "contract_id": "0x0a52478c78892bddb33d874b5577d8241169f719",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.7.6",
+  "solidity_version": "^0.7.6",
+  "optimization_enabled": false,
+  "optimization_runs": 500,
+  "protocol_type": "Bridge",
+  "protocol_name": "DeltaCross",
+  "total_value_locked_usd": 42210146,
+  "deployment_date": "2019-12-18",
+  "audit_status": "Halborn_2024",
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "miner_scheduled_execution",
+      "severity": "medium",
+      "confidence": 0.97,
+      "line_numbers": [
+        10,
+        17
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

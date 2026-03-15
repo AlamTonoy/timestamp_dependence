@@ -1,0 +1,35 @@
+{
+  "contract_id": "0xc6b77abcd7e3d6afbc21dba6deda591b66b93f27",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.8.20",
+  "solidity_version": "^0.8.20",
+  "optimization_enabled": false,
+  "optimization_runs": 200,
+  "protocol_type": "Bridge",
+  "protocol_name": "DeltaCross",
+  "total_value_locked_usd": 12620466,
+  "deployment_date": "2021-07-05",
+  "audit_status": "Trail_of_Bits_2023",
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "timestamp_overflow",
+      "severity": "low",
+      "confidence": 0.94,
+      "line_numbers": [
+        63,
+        75
+      ],
+      "cwe": [
+        "CWE-190"
+      ],
+      "swc": [
+        "SWC-116",
+        "SWC-101"
+      ]
+    }
+  }
+}

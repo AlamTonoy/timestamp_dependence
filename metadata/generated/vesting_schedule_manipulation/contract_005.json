@@ -1,0 +1,34 @@
+{
+  "contract_id": "0x42da83359ce690fcc3ee917b4f1dd523bd7400f5",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.6.12",
+  "solidity_version": "^0.6.12",
+  "optimization_enabled": false,
+  "optimization_runs": 200,
+  "protocol_type": "Bridge",
+  "protocol_name": "BetaPortal",
+  "total_value_locked_usd": 48298430,
+  "deployment_date": "2023-09-21",
+  "audit_status": null,
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "vesting_schedule_manipulation",
+      "severity": "high",
+      "confidence": 0.98,
+      "line_numbers": [
+        76,
+        89
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "contract_id": "0x02d31e1baf64e04e670f74d9a8dfb865491223df",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.8.10",
+  "solidity_version": "^0.8.10",
+  "optimization_enabled": false,
+  "optimization_runs": 500,
+  "protocol_type": "AMM",
+  "protocol_name": "OmegaPool",
+  "total_value_locked_usd": 20538220,
+  "deployment_date": "2020-10-21",
+  "audit_status": "Trail_of_Bits_2023",
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "timestamp_overflow",
+      "severity": "low",
+      "confidence": 0.98,
+      "line_numbers": [
+        37,
+        55
+      ],
+      "cwe": [
+        "CWE-190"
+      ],
+      "swc": [
+        "SWC-116",
+        "SWC-101"
+      ]
+    }
+  }
+}

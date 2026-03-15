@@ -1,0 +1,34 @@
+{
+  "contract_id": "0xe042414e37fec5117e3cdda17f45e61438e7ae54",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.7.6",
+  "solidity_version": "^0.7.6",
+  "optimization_enabled": false,
+  "optimization_runs": 200,
+  "protocol_type": "Vault",
+  "protocol_name": "NovaSafe",
+  "total_value_locked_usd": 3102300,
+  "deployment_date": "2019-09-06",
+  "audit_status": "Peckshield_2024",
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "block_number_manipulation",
+      "severity": "medium",
+      "confidence": 0.9,
+      "line_numbers": [
+        78,
+        83
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

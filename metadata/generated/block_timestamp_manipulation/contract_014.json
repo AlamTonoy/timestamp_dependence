@@ -1,0 +1,35 @@
+{
+  "contract_id": "0xd044b483c46c5797ece2f7a4a9154e44d73c703c",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.8.20",
+  "solidity_version": "^0.8.20",
+  "optimization_enabled": false,
+  "optimization_runs": 1000,
+  "protocol_type": "Lending",
+  "protocol_name": "AlphaProtocol",
+  "total_value_locked_usd": 21413459,
+  "deployment_date": "2022-10-07",
+  "audit_status": null,
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "block_timestamp_manipulation",
+      "severity": "medium",
+      "confidence": 0.85,
+      "line_numbers": [
+        78,
+        88
+      ],
+      "cwe": [
+        "CWE-829",
+        "CWE-330"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

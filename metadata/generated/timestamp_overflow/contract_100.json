@@ -1,0 +1,35 @@
+{
+  "contract_id": "0x94ca308206ef5a5dfea163289497b34a6ee310d6",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.6.12",
+  "solidity_version": "^0.6.12",
+  "optimization_enabled": true,
+  "optimization_runs": 200,
+  "protocol_type": "Lending",
+  "protocol_name": "ZetaProtocol",
+  "total_value_locked_usd": 21343751,
+  "deployment_date": "2024-04-04",
+  "audit_status": "Hacken_2024",
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "timestamp_overflow",
+      "severity": "low",
+      "confidence": 0.85,
+      "line_numbers": [
+        72,
+        86
+      ],
+      "cwe": [
+        "CWE-190"
+      ],
+      "swc": [
+        "SWC-116",
+        "SWC-101"
+      ]
+    }
+  }
+}

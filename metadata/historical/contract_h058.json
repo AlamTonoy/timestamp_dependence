@@ -1,0 +1,37 @@
+{
+  "contract_id": "0xaaccd40da635e9f9fabbc235c5f434e7815b67cd",
+  "collection_source": "historical_attack_pattern",
+  "compiler_version": "0.8.17",
+  "solidity_version": "^0.8.17",
+  "optimization_enabled": false,
+  "optimization_runs": 200,
+  "protocol_type": "DAO",
+  "protocol_name": "ProposalDAO",
+  "total_value_locked_usd": 40589,
+  "deployment_date": "2017-01-09",
+  "audit_status": null,
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2019-03-14",
+    "exploit_value_usd": 1,
+    "exploit_tx": "0xa19f16f9a239366a7dc672d7fe850f1d2334820e0bf2a566b734f9eecc59033e"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "vesting_schedule_manipulation",
+      "severity": "high",
+      "confidence": 0.86,
+      "line_numbers": [
+        16,
+        98
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

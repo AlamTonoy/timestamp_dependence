@@ -1,0 +1,34 @@
+{
+  "contract_id": "0x47b067ebbd849026ed6d441c4659a5159c82cbc3",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.8.7",
+  "solidity_version": "^0.8.7",
+  "optimization_enabled": false,
+  "optimization_runs": 1000,
+  "protocol_type": "Vault",
+  "protocol_name": "AlphaSafe",
+  "total_value_locked_usd": 2169057,
+  "deployment_date": "2022-09-28",
+  "audit_status": "Trail_of_Bits_2023",
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "vesting_schedule_manipulation",
+      "severity": "high",
+      "confidence": 0.97,
+      "line_numbers": [
+        32,
+        44
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

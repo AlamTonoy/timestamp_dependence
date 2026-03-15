@@ -1,0 +1,37 @@
+{
+  "contract_id": "0xd1782afeb71f4b3002aca5ecc8f31115c5152b34",
+  "collection_source": "historical_attack_pattern",
+  "compiler_version": "0.4.24",
+  "solidity_version": "^0.4.24",
+  "optimization_enabled": false,
+  "optimization_runs": 1000,
+  "protocol_type": "Staking",
+  "protocol_name": "StakePool",
+  "total_value_locked_usd": 2157258,
+  "deployment_date": "2016-04-18",
+  "audit_status": "Certik_2022",
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2020-12-12",
+    "exploit_value_usd": 1149256,
+    "exploit_tx": "0x5cc6ff4689d5f2300dddf1a6b3ec64920765936bfb4f04bc5ce003c29b15172f"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "vesting_schedule_manipulation",
+      "severity": "high",
+      "confidence": 0.87,
+      "line_numbers": [
+        32,
+        79
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

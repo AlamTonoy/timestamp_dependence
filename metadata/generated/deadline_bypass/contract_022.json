@@ -1,0 +1,34 @@
+{
+  "contract_id": "0x124c8a208c070413f5916db970ea9f1c222c5034",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.8.0",
+  "solidity_version": "^0.8.0",
+  "optimization_enabled": true,
+  "optimization_runs": 500,
+  "protocol_type": "Staking",
+  "protocol_name": "BetaFarm",
+  "total_value_locked_usd": 23286038,
+  "deployment_date": "2021-11-05",
+  "audit_status": "Peckshield_2024",
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "deadline_bypass",
+      "severity": "high",
+      "confidence": 0.99,
+      "line_numbers": [
+        37,
+        56
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

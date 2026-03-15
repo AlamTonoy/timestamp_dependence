@@ -1,0 +1,34 @@
+{
+  "contract_id": "0x9924fa58e58b083bfb793d0b7ee70b05adc8ae7f",
+  "collection_source": "historical_attack_pattern",
+  "compiler_version": "0.4.24",
+  "solidity_version": "^0.4.24",
+  "optimization_enabled": false,
+  "optimization_runs": 500,
+  "protocol_type": "DAO",
+  "protocol_name": "ProposalDAO",
+  "total_value_locked_usd": 29066,
+  "deployment_date": "2018-07-30",
+  "audit_status": "OpenZeppelin_2021",
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "vesting_schedule_manipulation",
+      "severity": "high",
+      "confidence": 0.85,
+      "line_numbers": [
+        41,
+        92
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "contract_id": "0xfb287942a2a481b12c288dda2bbf753ada36c8cd",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.8.0",
+  "solidity_version": "^0.8.0",
+  "optimization_enabled": true,
+  "optimization_runs": 200,
+  "protocol_type": "AMM",
+  "protocol_name": "OmegaDEX",
+  "total_value_locked_usd": 26832639,
+  "deployment_date": "2023-11-10",
+  "audit_status": "ConsenSys_Diligence_2023",
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "vesting_schedule_manipulation",
+      "severity": "high",
+      "confidence": 0.93,
+      "line_numbers": [
+        67,
+        73
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

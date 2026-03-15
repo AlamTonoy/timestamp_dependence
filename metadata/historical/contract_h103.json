@@ -1,0 +1,34 @@
+{
+  "contract_id": "0x3e0c534ef9ed538f593c33e72485cc1f050d275b",
+  "collection_source": "historical_attack_pattern",
+  "compiler_version": "0.8.17",
+  "solidity_version": "^0.8.17",
+  "optimization_enabled": true,
+  "optimization_runs": 1000,
+  "protocol_type": "DAO",
+  "protocol_name": "VoteDAO",
+  "total_value_locked_usd": 64625,
+  "deployment_date": "2018-11-18",
+  "audit_status": "Peckshield_2022",
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "miner_scheduled_execution",
+      "severity": "medium",
+      "confidence": 0.95,
+      "line_numbers": [
+        32,
+        73
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "contract_id": "0x46ea0e13979e27e1510e3ebb5f955ecf65dbcad8",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.8.20",
+  "solidity_version": "^0.8.20",
+  "optimization_enabled": false,
+  "optimization_runs": 500,
+  "protocol_type": "Staking",
+  "protocol_name": "BetaStake",
+  "total_value_locked_usd": 33033308,
+  "deployment_date": "2021-11-29",
+  "audit_status": "Certik_2023",
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "time_window_attack",
+      "severity": "medium",
+      "confidence": 0.95,
+      "line_numbers": [
+        47,
+        59
+      ],
+      "cwe": [
+        "CWE-362"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

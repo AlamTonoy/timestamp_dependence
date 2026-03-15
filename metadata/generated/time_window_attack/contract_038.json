@@ -1,0 +1,34 @@
+{
+  "contract_id": "0x03fd76a7e339de57e1cf7d6aef9247bb8197820e",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.8.7",
+  "solidity_version": "^0.8.7",
+  "optimization_enabled": true,
+  "optimization_runs": 200,
+  "protocol_type": "Bridge",
+  "protocol_name": "AlphaBridge",
+  "total_value_locked_usd": 7941034,
+  "deployment_date": "2021-06-30",
+  "audit_status": "Trail_of_Bits_2024",
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "time_window_attack",
+      "severity": "medium",
+      "confidence": 0.89,
+      "line_numbers": [
+        39,
+        51
+      ],
+      "cwe": [
+        "CWE-362"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

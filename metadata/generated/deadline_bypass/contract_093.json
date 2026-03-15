@@ -1,0 +1,34 @@
+{
+  "contract_id": "0x5e77e2dd5ad28abf2f2f513989852162993a4025",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.6.12",
+  "solidity_version": "^0.6.12",
+  "optimization_enabled": false,
+  "optimization_runs": 500,
+  "protocol_type": "DAO",
+  "protocol_name": "DeltaVote",
+  "total_value_locked_usd": 38356548,
+  "deployment_date": "2024-04-13",
+  "audit_status": null,
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "deadline_bypass",
+      "severity": "high",
+      "confidence": 0.78,
+      "line_numbers": [
+        33,
+        38
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

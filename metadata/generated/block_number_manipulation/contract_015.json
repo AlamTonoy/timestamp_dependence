@@ -1,0 +1,34 @@
+{
+  "contract_id": "0x52be9e28e3487f426371e22b9448e67ff4b51335",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.7.6",
+  "solidity_version": "^0.7.6",
+  "optimization_enabled": true,
+  "optimization_runs": 500,
+  "protocol_type": "Bridge",
+  "protocol_name": "DeltaPortal",
+  "total_value_locked_usd": 39790410,
+  "deployment_date": "2023-11-07",
+  "audit_status": "ConsenSys_Diligence_2023",
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "block_number_manipulation",
+      "severity": "medium",
+      "confidence": 0.84,
+      "line_numbers": [
+        65,
+        70
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

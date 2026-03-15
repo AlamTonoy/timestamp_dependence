@@ -1,0 +1,38 @@
+{
+  "contract_id": "0xf32eb56dc8466b6fb7c00ac4ace8d34c7a8b68ff",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.8.19",
+  "solidity_version": "^0.8.19",
+  "optimization_enabled": false,
+  "optimization_runs": 500,
+  "protocol_type": "Vault",
+  "protocol_name": "DeltaSafe",
+  "total_value_locked_usd": 41309725,
+  "deployment_date": "2021-04-06",
+  "audit_status": "OpenZeppelin_2022",
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2022-05-26",
+    "exploit_value_usd": 518594,
+    "exploit_tx": "0x648a3f379d5f4704e764287e5e6b07d8a6045752b5bd2eb7183fdd95a0f5aabb"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "timestamp_overflow",
+      "severity": "low",
+      "confidence": 0.89,
+      "line_numbers": [
+        27,
+        38
+      ],
+      "cwe": [
+        "CWE-190"
+      ],
+      "swc": [
+        "SWC-116",
+        "SWC-101"
+      ]
+    }
+  }
+}

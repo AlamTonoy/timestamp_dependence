@@ -1,0 +1,34 @@
+{
+  "contract_id": "0x440c79751fbf2caf7d33a44ca8bef4b8b6e09758",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.7.6",
+  "solidity_version": "^0.7.6",
+  "optimization_enabled": true,
+  "optimization_runs": 200,
+  "protocol_type": "Vault",
+  "protocol_name": "OmegaTreasury",
+  "total_value_locked_usd": 41280983,
+  "deployment_date": "2020-10-01",
+  "audit_status": "Halborn_2024",
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "deadline_bypass",
+      "severity": "high",
+      "confidence": 0.97,
+      "line_numbers": [
+        21,
+        33
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

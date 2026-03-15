@@ -1,0 +1,35 @@
+{
+  "contract_id": "0x21dc0692ed313cf595fa003e6b3bd2726b97cb28",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.8.10",
+  "solidity_version": "^0.8.10",
+  "optimization_enabled": true,
+  "optimization_runs": 500,
+  "protocol_type": "Insurance",
+  "protocol_name": "BetaGuard",
+  "total_value_locked_usd": 29248789,
+  "deployment_date": "2021-05-15",
+  "audit_status": "ConsenSys_Diligence_2023",
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "timestamp_overflow",
+      "severity": "low",
+      "confidence": 0.91,
+      "line_numbers": [
+        32,
+        51
+      ],
+      "cwe": [
+        "CWE-190"
+      ],
+      "swc": [
+        "SWC-116",
+        "SWC-101"
+      ]
+    }
+  }
+}

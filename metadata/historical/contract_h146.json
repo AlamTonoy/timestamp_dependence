@@ -1,0 +1,34 @@
+{
+  "contract_id": "0x9d68156ed5697e661261311d4ef649dc05bb5458",
+  "collection_source": "historical_attack_pattern",
+  "compiler_version": "0.8.0",
+  "solidity_version": "^0.8.0",
+  "optimization_enabled": false,
+  "optimization_runs": 500,
+  "protocol_type": "DAO",
+  "protocol_name": "GovernanceDAO",
+  "total_value_locked_usd": 2523,
+  "deployment_date": "2020-08-22",
+  "audit_status": "Certik_2022",
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "vesting_schedule_manipulation",
+      "severity": "high",
+      "confidence": 1.0,
+      "line_numbers": [
+        33,
+        80
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

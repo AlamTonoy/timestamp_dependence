@@ -1,0 +1,37 @@
+{
+  "contract_id": "0x82eed8660369b7dca656eea6fce100a2a24027be",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.8.21",
+  "solidity_version": "^0.8.21",
+  "optimization_enabled": false,
+  "optimization_runs": 1000,
+  "protocol_type": "Vault",
+  "protocol_name": "BetaTreasury",
+  "total_value_locked_usd": 46418011,
+  "deployment_date": "2020-03-12",
+  "audit_status": "Hacken_2024",
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2020-12-01",
+    "exploit_value_usd": 4724055,
+    "exploit_tx": "0x6e27b4e0f1c27541fe30b3b92f48ae4276212e124ab1825c08b97cc4126840c1"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "time_window_attack",
+      "severity": "medium",
+      "confidence": 0.97,
+      "line_numbers": [
+        10,
+        25
+      ],
+      "cwe": [
+        "CWE-362"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

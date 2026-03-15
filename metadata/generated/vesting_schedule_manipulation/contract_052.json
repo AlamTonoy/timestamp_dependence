@@ -1,0 +1,34 @@
+{
+  "contract_id": "0x97ffea7bc004779cc39abf218f209b0d94f6a045",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.8.7",
+  "solidity_version": "^0.8.7",
+  "optimization_enabled": false,
+  "optimization_runs": 1000,
+  "protocol_type": "Lottery",
+  "protocol_name": "OmegaJackpot",
+  "total_value_locked_usd": 42702449,
+  "deployment_date": "2019-10-31",
+  "audit_status": "Certik_2023",
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "vesting_schedule_manipulation",
+      "severity": "high",
+      "confidence": 1.0,
+      "line_numbers": [
+        26,
+        36
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

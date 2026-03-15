@@ -1,0 +1,34 @@
+{
+  "contract_id": "0x2c4726c67cb20ad85029c0af88ad74276c1d51d6",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.6.12",
+  "solidity_version": "^0.6.12",
+  "optimization_enabled": true,
+  "optimization_runs": 500,
+  "protocol_type": "Bridge",
+  "protocol_name": "OmegaBridge",
+  "total_value_locked_usd": 49294249,
+  "deployment_date": "2020-09-30",
+  "audit_status": "Hacken_2024",
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "miner_scheduled_execution",
+      "severity": "medium",
+      "confidence": 0.82,
+      "line_numbers": [
+        13,
+        20
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "contract_id": "0x616b2dfc7e407be5dd107926b44c4ffed396b323",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.7.6",
+  "solidity_version": "^0.7.6",
+  "optimization_enabled": true,
+  "optimization_runs": 1000,
+  "protocol_type": "Staking",
+  "protocol_name": "OmegaYield",
+  "total_value_locked_usd": 44784235,
+  "deployment_date": "2024-02-17",
+  "audit_status": "Peckshield_2024",
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "time_window_attack",
+      "severity": "medium",
+      "confidence": 0.78,
+      "line_numbers": [
+        35,
+        42
+      ],
+      "cwe": [
+        "CWE-362"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

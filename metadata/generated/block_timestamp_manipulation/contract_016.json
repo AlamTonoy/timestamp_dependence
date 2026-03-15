@@ -1,0 +1,35 @@
+{
+  "contract_id": "0x64b5d6e19ea7a5a4d259a77ccf38a12aab1c2dd2",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.8.21",
+  "solidity_version": "^0.8.21",
+  "optimization_enabled": true,
+  "optimization_runs": 1000,
+  "protocol_type": "NFT",
+  "protocol_name": "OmegaArt",
+  "total_value_locked_usd": 48637009,
+  "deployment_date": "2020-12-12",
+  "audit_status": "Peckshield_2024",
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "block_timestamp_manipulation",
+      "severity": "medium",
+      "confidence": 0.78,
+      "line_numbers": [
+        78,
+        87
+      ],
+      "cwe": [
+        "CWE-829",
+        "CWE-330"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

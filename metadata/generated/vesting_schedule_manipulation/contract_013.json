@@ -1,0 +1,34 @@
+{
+  "contract_id": "0x0bee4efe383a6919731e5835116562ada633c85b",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.8.0",
+  "solidity_version": "^0.8.0",
+  "optimization_enabled": false,
+  "optimization_runs": 500,
+  "protocol_type": "Insurance",
+  "protocol_name": "ZetaCover",
+  "total_value_locked_usd": 28345844,
+  "deployment_date": "2024-08-26",
+  "audit_status": "Halborn_2024",
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "vesting_schedule_manipulation",
+      "severity": "high",
+      "confidence": 0.89,
+      "line_numbers": [
+        74,
+        85
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "contract_id": "0x55da7cca1878e5b9f9e76216da0a3be9794c106d",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.8.19",
+  "solidity_version": "^0.8.19",
+  "optimization_enabled": true,
+  "optimization_runs": 500,
+  "protocol_type": "Options",
+  "protocol_name": "OmegaHedge",
+  "total_value_locked_usd": 29794576,
+  "deployment_date": "2023-08-24",
+  "audit_status": "Peckshield_2024",
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "block_timestamp_manipulation",
+      "severity": "medium",
+      "confidence": 0.81,
+      "line_numbers": [
+        33,
+        45
+      ],
+      "cwe": [
+        "CWE-829",
+        "CWE-330"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

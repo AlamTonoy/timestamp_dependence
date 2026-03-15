@@ -1,0 +1,34 @@
+{
+  "contract_id": "0x86fd3855fb7edc15a0468f78ed694cced1be95b1",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.8.20",
+  "solidity_version": "^0.8.20",
+  "optimization_enabled": false,
+  "optimization_runs": 200,
+  "protocol_type": "NFT",
+  "protocol_name": "GammaArt",
+  "total_value_locked_usd": 1926415,
+  "deployment_date": "2023-11-01",
+  "audit_status": "Hacken_2024",
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "block_number_manipulation",
+      "severity": "medium",
+      "confidence": 0.99,
+      "line_numbers": [
+        36,
+        48
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

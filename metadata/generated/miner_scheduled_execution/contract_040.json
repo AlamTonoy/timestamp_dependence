@@ -1,0 +1,37 @@
+{
+  "contract_id": "0xe051b6dca40f0651ad2dbd80c06f3b3e83b720af",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.8.10",
+  "solidity_version": "^0.8.10",
+  "optimization_enabled": false,
+  "optimization_runs": 200,
+  "protocol_type": "Options",
+  "protocol_name": "NovaDerivatives",
+  "total_value_locked_usd": 46534300,
+  "deployment_date": "2023-03-19",
+  "audit_status": "Hacken_2024",
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2024-02-22",
+    "exploit_value_usd": 241813,
+    "exploit_tx": "0x39f509ab42ac85635382198ab88b15f31fc46403ae7f390feab32433c3ec961c"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "miner_scheduled_execution",
+      "severity": "medium",
+      "confidence": 0.9,
+      "line_numbers": [
+        42,
+        51
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

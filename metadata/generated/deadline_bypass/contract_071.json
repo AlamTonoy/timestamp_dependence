@@ -1,0 +1,34 @@
+{
+  "contract_id": "0x0c287bdc7b9920f95e2ba131dd67c7501c07b8e2",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.8.10",
+  "solidity_version": "^0.8.10",
+  "optimization_enabled": true,
+  "optimization_runs": 500,
+  "protocol_type": "Bridge",
+  "protocol_name": "NovaPortal",
+  "total_value_locked_usd": 12234156,
+  "deployment_date": "2023-07-13",
+  "audit_status": "ConsenSys_Diligence_2023",
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "deadline_bypass",
+      "severity": "high",
+      "confidence": 0.93,
+      "line_numbers": [
+        18,
+        37
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

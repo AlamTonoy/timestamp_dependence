@@ -1,0 +1,34 @@
+{
+  "contract_id": "0x9f9f49bdf0b78d3aea3bd673b12fa0a8d317d086",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.7.6",
+  "solidity_version": "^0.7.6",
+  "optimization_enabled": false,
+  "optimization_runs": 200,
+  "protocol_type": "Bridge",
+  "protocol_name": "NovaCross",
+  "total_value_locked_usd": 31577369,
+  "deployment_date": "2019-02-03",
+  "audit_status": "Peckshield_2024",
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "deadline_bypass",
+      "severity": "high",
+      "confidence": 0.91,
+      "line_numbers": [
+        16,
+        32
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

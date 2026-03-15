@@ -1,0 +1,37 @@
+{
+  "contract_id": "0xc37bd41f4da5b65cde127ab354c9c8d34456fa67",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.8.7",
+  "solidity_version": "^0.8.7",
+  "optimization_enabled": false,
+  "optimization_runs": 1000,
+  "protocol_type": "Bridge",
+  "protocol_name": "BetaBridge",
+  "total_value_locked_usd": 35397900,
+  "deployment_date": "2022-06-09",
+  "audit_status": null,
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2024-07-10",
+    "exploit_value_usd": 4073006,
+    "exploit_tx": "0xa0d69b250902ca7619ea1dab2a39b1371d443b97cef82fa3a11ce380a55d7ade"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "vesting_schedule_manipulation",
+      "severity": "high",
+      "confidence": 0.93,
+      "line_numbers": [
+        54,
+        61
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

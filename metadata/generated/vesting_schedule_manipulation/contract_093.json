@@ -1,0 +1,34 @@
+{
+  "contract_id": "0x9090e16d8d0654a37f49f93ccf9967032f22505b",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.7.6",
+  "solidity_version": "^0.7.6",
+  "optimization_enabled": true,
+  "optimization_runs": 500,
+  "protocol_type": "Vault",
+  "protocol_name": "OmegaSafe",
+  "total_value_locked_usd": 42221772,
+  "deployment_date": "2023-08-28",
+  "audit_status": "Halborn_2024",
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "vesting_schedule_manipulation",
+      "severity": "high",
+      "confidence": 0.8,
+      "line_numbers": [
+        17,
+        35
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

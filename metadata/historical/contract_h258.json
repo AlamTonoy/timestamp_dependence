@@ -1,0 +1,37 @@
+{
+  "contract_id": "0x2b97a70e56110ed9f9a6b66da08eaf83523c396f",
+  "collection_source": "historical_attack_pattern",
+  "compiler_version": "0.8.19",
+  "solidity_version": "^0.8.19",
+  "optimization_enabled": false,
+  "optimization_runs": 500,
+  "protocol_type": "Bridge",
+  "protocol_name": "HopFork",
+  "total_value_locked_usd": 95538,
+  "deployment_date": "2020-11-06",
+  "audit_status": "Certik_2022",
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2021-10-05",
+    "exploit_value_usd": 281470,
+    "exploit_tx": "0x44b13b32d7ff0c766eb2e5f7177bf4dd944ffa1cf2dd78279a87eb690e3ac4a3"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "miner_scheduled_execution",
+      "severity": "medium",
+      "confidence": 0.98,
+      "line_numbers": [
+        24,
+        57
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

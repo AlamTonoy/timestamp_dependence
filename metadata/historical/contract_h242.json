@@ -1,0 +1,37 @@
+{
+  "contract_id": "0x5a8d303b784e6acb5a424fa63bb43c516c1c1635",
+  "collection_source": "historical_attack_pattern",
+  "compiler_version": "0.8.7",
+  "solidity_version": "^0.8.7",
+  "optimization_enabled": true,
+  "optimization_runs": 200,
+  "protocol_type": "Bridge",
+  "protocol_name": "RoninFork",
+  "total_value_locked_usd": 195672084,
+  "deployment_date": "2016-02-04",
+  "audit_status": "Certik_2022",
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2020-08-21",
+    "exploit_value_usd": 294945398,
+    "exploit_tx": "0xb1fc690dd230fc602c1a5628dea94f370203d5de3d3e955e031ca3848d4727ab"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "time_window_attack",
+      "severity": "high",
+      "confidence": 0.93,
+      "line_numbers": [
+        34,
+        79
+      ],
+      "cwe": [
+        "CWE-362"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

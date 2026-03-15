@@ -1,0 +1,37 @@
+{
+  "contract_id": "0xf87c351b14796355195ca6378bd8838a484c1fac",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.8.10",
+  "solidity_version": "^0.8.10",
+  "optimization_enabled": false,
+  "optimization_runs": 500,
+  "protocol_type": "AMM",
+  "protocol_name": "DeltaDEX",
+  "total_value_locked_usd": 35220529,
+  "deployment_date": "2023-09-02",
+  "audit_status": "Halborn_2024",
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2024-04-01",
+    "exploit_value_usd": 4664292,
+    "exploit_tx": "0x1de81ee9478c2aeca35e1d6d4ad657b39ad76d3dc8e9599c788915373da2acbd"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "miner_scheduled_execution",
+      "severity": "medium",
+      "confidence": 0.76,
+      "line_numbers": [
+        51,
+        57
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

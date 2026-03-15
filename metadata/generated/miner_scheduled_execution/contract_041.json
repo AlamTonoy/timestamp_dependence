@@ -1,0 +1,34 @@
+{
+  "contract_id": "0xcd361e9984825d54eae7f1c8a6298e9fa97ec68e",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.8.21",
+  "solidity_version": "^0.8.21",
+  "optimization_enabled": true,
+  "optimization_runs": 500,
+  "protocol_type": "Vault",
+  "protocol_name": "DeltaTreasury",
+  "total_value_locked_usd": 17818850,
+  "deployment_date": "2021-09-27",
+  "audit_status": "Quantstamp_2023",
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "miner_scheduled_execution",
+      "severity": "medium",
+      "confidence": 0.77,
+      "line_numbers": [
+        54,
+        66
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "contract_id": "0x7aa2fbb9c57fa3e69bf06def8a75f6cd80b4a9b8",
+  "collection_source": "historical_attack_pattern",
+  "compiler_version": "0.8.0",
+  "solidity_version": "^0.8.0",
+  "optimization_enabled": true,
+  "optimization_runs": 200,
+  "protocol_type": "Lending",
+  "protocol_name": "AaveFork",
+  "total_value_locked_usd": 9056833,
+  "deployment_date": "2017-01-15",
+  "audit_status": "Peckshield_2022",
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2017-10-25",
+    "exploit_value_usd": 10417226,
+    "exploit_tx": "0xb35e36108118dd820d6a71a2fd9c26cd979d7572dc0abe91d448e5a4f3794409"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "time_window_attack",
+      "severity": "high",
+      "confidence": 0.86,
+      "line_numbers": [
+        43,
+        69
+      ],
+      "cwe": [
+        "CWE-362"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

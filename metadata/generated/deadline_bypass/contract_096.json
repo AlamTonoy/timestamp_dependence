@@ -1,0 +1,34 @@
+{
+  "contract_id": "0x8048a6f8850ed93a186ae019fcd788febcbc862c",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.8.17",
+  "solidity_version": "^0.8.17",
+  "optimization_enabled": true,
+  "optimization_runs": 500,
+  "protocol_type": "Staking",
+  "protocol_name": "GammaStake",
+  "total_value_locked_usd": 10396096,
+  "deployment_date": "2022-03-23",
+  "audit_status": "Quantstamp_2023",
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "deadline_bypass",
+      "severity": "high",
+      "confidence": 0.89,
+      "line_numbers": [
+        73,
+        91
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

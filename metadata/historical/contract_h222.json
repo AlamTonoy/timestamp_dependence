@@ -1,0 +1,38 @@
+{
+  "contract_id": "0x67a3988392ed4bfcd31c446616c263d32f815993",
+  "collection_source": "historical_attack_pattern",
+  "compiler_version": "0.4.25",
+  "solidity_version": "^0.4.25",
+  "optimization_enabled": false,
+  "optimization_runs": 1000,
+  "protocol_type": "Lottery",
+  "protocol_name": "EtherPot",
+  "total_value_locked_usd": 182080,
+  "deployment_date": "2021-12-08",
+  "audit_status": "Certik_2022",
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2023-03-04",
+    "exploit_value_usd": 218058,
+    "exploit_tx": "0x9bef6bad1f3ec098f6148b8a6f115b37efce3eed9d04108174517895e556bb96"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "block_timestamp_manipulation",
+      "severity": "medium",
+      "confidence": 0.93,
+      "line_numbers": [
+        40,
+        97
+      ],
+      "cwe": [
+        "CWE-829",
+        "CWE-330"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

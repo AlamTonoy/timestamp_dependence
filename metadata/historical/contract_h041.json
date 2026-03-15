@@ -1,0 +1,37 @@
+{
+  "contract_id": "0x6e820a5e137d4628a24ea8286374e03058b6e8d2",
+  "collection_source": "historical_attack_pattern",
+  "compiler_version": "0.4.24",
+  "solidity_version": "^0.4.24",
+  "optimization_enabled": true,
+  "optimization_runs": 200,
+  "protocol_type": "Options",
+  "protocol_name": "HedgeX",
+  "total_value_locked_usd": 3041605,
+  "deployment_date": "2022-11-21",
+  "audit_status": "Halborn_2023",
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2023-03-23",
+    "exploit_value_usd": 1750542,
+    "exploit_tx": "0x87009c08ed0407c978e50617d6be17cda8a4574e470faed5a3a1aa809f99a93c"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "deadline_bypass",
+      "severity": "high",
+      "confidence": 0.94,
+      "line_numbers": [
+        30,
+        85
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

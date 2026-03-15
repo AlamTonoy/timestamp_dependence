@@ -1,0 +1,34 @@
+{
+  "contract_id": "0xbe688327b8a37be1bb11793fe31d4f9dcfc6f200",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.8.10",
+  "solidity_version": "^0.8.10",
+  "optimization_enabled": true,
+  "optimization_runs": 1000,
+  "protocol_type": "AMM",
+  "protocol_name": "ZetaPool",
+  "total_value_locked_usd": 47387089,
+  "deployment_date": "2019-12-24",
+  "audit_status": "Halborn_2024",
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "time_window_attack",
+      "severity": "medium",
+      "confidence": 0.77,
+      "line_numbers": [
+        32,
+        51
+      ],
+      "cwe": [
+        "CWE-362"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

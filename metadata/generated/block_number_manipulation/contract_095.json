@@ -1,0 +1,34 @@
+{
+  "contract_id": "0xce7c06ca653189d5b693459d8b9a677be914f1fa",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.8.21",
+  "solidity_version": "^0.8.21",
+  "optimization_enabled": true,
+  "optimization_runs": 1000,
+  "protocol_type": "NFT",
+  "protocol_name": "ZetaGallery",
+  "total_value_locked_usd": 49136237,
+  "deployment_date": "2021-09-18",
+  "audit_status": "Quantstamp_2023",
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "block_number_manipulation",
+      "severity": "medium",
+      "confidence": 0.94,
+      "line_numbers": [
+        34,
+        53
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

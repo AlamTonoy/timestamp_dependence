@@ -1,0 +1,37 @@
+{
+  "contract_id": "0xb065c66300d3c441d0d94cf698a0fead359aa415",
+  "collection_source": "historical_attack_pattern",
+  "compiler_version": "0.4.24",
+  "solidity_version": "^0.4.24",
+  "optimization_enabled": true,
+  "optimization_runs": 500,
+  "protocol_type": "DAO",
+  "protocol_name": "GovernanceDAO",
+  "total_value_locked_usd": 40368,
+  "deployment_date": "2019-05-27",
+  "audit_status": null,
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2022-03-11",
+    "exploit_value_usd": 1,
+    "exploit_tx": "0xcb66572e80fc03fd9f99fc340e5b0a02b943667f3aaf8f5cfe644a1ba67b7e24"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "miner_scheduled_execution",
+      "severity": "medium",
+      "confidence": 0.89,
+      "line_numbers": [
+        38,
+        51
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

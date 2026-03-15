@@ -1,0 +1,37 @@
+{
+  "contract_id": "0x75c46fcc59208a3bea42d41f1779297ad9619c29",
+  "collection_source": "historical_attack_pattern",
+  "compiler_version": "0.8.17",
+  "solidity_version": "^0.8.17",
+  "optimization_enabled": true,
+  "optimization_runs": 1000,
+  "protocol_type": "Bridge",
+  "protocol_name": "HopFork",
+  "total_value_locked_usd": 991088047,
+  "deployment_date": "2018-10-14",
+  "audit_status": null,
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2022-06-29",
+    "exploit_value_usd": 763563038,
+    "exploit_tx": "0x482b5fe1370630abd562554bd40f2176706f1fce7ac84f54a7eeb5fe53a25214"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "time_window_attack",
+      "severity": "high",
+      "confidence": 0.86,
+      "line_numbers": [
+        11,
+        94
+      ],
+      "cwe": [
+        "CWE-362"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

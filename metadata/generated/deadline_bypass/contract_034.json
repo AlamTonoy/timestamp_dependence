@@ -1,0 +1,34 @@
+{
+  "contract_id": "0xb4785f3421e2837976a98ad9a089b57cdc71622f",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.8.7",
+  "solidity_version": "^0.8.7",
+  "optimization_enabled": true,
+  "optimization_runs": 500,
+  "protocol_type": "Lending",
+  "protocol_name": "NovaLend",
+  "total_value_locked_usd": 7919156,
+  "deployment_date": "2019-10-08",
+  "audit_status": "Hacken_2024",
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "deadline_bypass",
+      "severity": "high",
+      "confidence": 0.88,
+      "line_numbers": [
+        55,
+        71
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

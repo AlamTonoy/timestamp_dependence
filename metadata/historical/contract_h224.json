@@ -1,0 +1,37 @@
+{
+  "contract_id": "0xe07ed44e5e0710c0b565e444647e18c008b400be",
+  "collection_source": "historical_attack_pattern",
+  "compiler_version": "0.7.6",
+  "solidity_version": "^0.7.6",
+  "optimization_enabled": false,
+  "optimization_runs": 1000,
+  "protocol_type": "Vault",
+  "protocol_name": "TimeLockSafe",
+  "total_value_locked_usd": 1053828,
+  "deployment_date": "2018-11-28",
+  "audit_status": "Trail_of_Bits_2021",
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2021-10-26",
+    "exploit_value_usd": 3291505,
+    "exploit_tx": "0x98c2d40a6cdb5ad65425d86deb4db5201d51bd9c953c01c4f7587cbdc785718a"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "deadline_bypass",
+      "severity": "high",
+      "confidence": 0.96,
+      "line_numbers": [
+        38,
+        74
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

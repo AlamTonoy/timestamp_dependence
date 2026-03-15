@@ -1,0 +1,37 @@
+{
+  "contract_id": "0x36ce487e1fa61730adb8055e19c4e41abb6a692d",
+  "collection_source": "historical_attack_pattern",
+  "compiler_version": "0.4.25",
+  "solidity_version": "^0.4.25",
+  "optimization_enabled": false,
+  "optimization_runs": 200,
+  "protocol_type": "Lottery",
+  "protocol_name": "SmartBillions",
+  "total_value_locked_usd": 33705,
+  "deployment_date": "2023-07-05",
+  "audit_status": "Peckshield_2022",
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2024-01-25",
+    "exploit_value_usd": 51311,
+    "exploit_tx": "0x955e48b9048675fda7f5637a75261400ebddf4990a6d8a1b86175829d8c06687"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "block_number_manipulation",
+      "severity": "medium",
+      "confidence": 0.98,
+      "line_numbers": [
+        13,
+        97
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

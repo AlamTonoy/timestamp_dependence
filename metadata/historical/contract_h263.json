@@ -1,0 +1,37 @@
+{
+  "contract_id": "0x3613929becc10fee54ef7386f6dec59f9deea76d",
+  "collection_source": "historical_attack_pattern",
+  "compiler_version": "0.5.17",
+  "solidity_version": "^0.5.17",
+  "optimization_enabled": false,
+  "optimization_runs": 1000,
+  "protocol_type": "Staking",
+  "protocol_name": "StakePool",
+  "total_value_locked_usd": 4551289,
+  "deployment_date": "2018-02-22",
+  "audit_status": "Peckshield_2022",
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2021-08-11",
+    "exploit_value_usd": 12127127,
+    "exploit_tx": "0xf8caeb990e6b9c6b71d658a4068197171f17a5d67b727c7e53bede4878d985cb"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "vesting_schedule_manipulation",
+      "severity": "high",
+      "confidence": 0.96,
+      "line_numbers": [
+        30,
+        55
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

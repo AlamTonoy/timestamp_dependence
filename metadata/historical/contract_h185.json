@@ -1,0 +1,37 @@
+{
+  "contract_id": "0x8e09e1521c5649daee2d24c3ce47495ec7777462",
+  "collection_source": "historical_attack_pattern",
+  "compiler_version": "0.8.0",
+  "solidity_version": "^0.8.0",
+  "optimization_enabled": false,
+  "optimization_runs": 500,
+  "protocol_type": "AMM",
+  "protocol_name": "UniswapFork",
+  "total_value_locked_usd": 965202,
+  "deployment_date": "2017-05-16",
+  "audit_status": "Halborn_2023",
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2019-08-28",
+    "exploit_value_usd": 1346985,
+    "exploit_tx": "0x125cda34754f8eb16124d0df88884d8e8faf0c0894ef0b90ee8e17faf0867d21"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "time_window_attack",
+      "severity": "medium",
+      "confidence": 0.87,
+      "line_numbers": [
+        39,
+        90
+      ],
+      "cwe": [
+        "CWE-362"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

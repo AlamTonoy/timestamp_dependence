@@ -1,0 +1,37 @@
+{
+  "contract_id": "0xf34b1804af1d3de3fffb63b153d3a1a1efcbbc65",
+  "collection_source": "historical_attack_pattern",
+  "compiler_version": "0.6.12",
+  "solidity_version": "^0.6.12",
+  "optimization_enabled": true,
+  "optimization_runs": 500,
+  "protocol_type": "Lending",
+  "protocol_name": "CompoundFork",
+  "total_value_locked_usd": 16350803,
+  "deployment_date": "2017-07-15",
+  "audit_status": "Quantstamp_2021",
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2021-08-04",
+    "exploit_value_usd": 17651235,
+    "exploit_tx": "0x4eee8abbe43c89ada86ce30dd115502c075d172b6022f99f7f2aec5bf7e3ff3e"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "time_window_attack",
+      "severity": "high",
+      "confidence": 0.97,
+      "line_numbers": [
+        28,
+        58
+      ],
+      "cwe": [
+        "CWE-362"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

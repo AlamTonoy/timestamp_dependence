@@ -1,0 +1,37 @@
+{
+  "contract_id": "0x2ca769c7edf666f6640060adf556fa3af5e5f815",
+  "collection_source": "historical_attack_pattern",
+  "compiler_version": "0.5.17",
+  "solidity_version": "^0.5.17",
+  "optimization_enabled": true,
+  "optimization_runs": 200,
+  "protocol_type": "Staking",
+  "protocol_name": "YieldFarm",
+  "total_value_locked_usd": 172932,
+  "deployment_date": "2020-10-19",
+  "audit_status": "OpenZeppelin_2021",
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2023-04-24",
+    "exploit_value_usd": 109240,
+    "exploit_tx": "0xa34a7ab1ba7f1a852ae7f09bdb370a2670562cfe62217831ed8d3c186011353c"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "block_timestamp_manipulation",
+      "severity": "medium",
+      "confidence": 0.95,
+      "line_numbers": [
+        41,
+        70
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

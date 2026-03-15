@@ -1,0 +1,37 @@
+{
+  "contract_id": "0x57ebc00773830fbc96bb29f0ed196bd64e74fc88",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.6.12",
+  "solidity_version": "^0.6.12",
+  "optimization_enabled": false,
+  "optimization_runs": 500,
+  "protocol_type": "Lending",
+  "protocol_name": "GammaFinance",
+  "total_value_locked_usd": 38907387,
+  "deployment_date": "2019-05-11",
+  "audit_status": "OpenZeppelin_2022",
+  "exploit_history": {
+    "exploited": true,
+    "exploit_date": "2020-10-21",
+    "exploit_value_usd": 2662918,
+    "exploit_tx": "0xa488ef1ab4599b6ef5c04372561d8fb5c5b96ec17f5048832394a25f8d652d0c"
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "time_window_attack",
+      "severity": "medium",
+      "confidence": 0.93,
+      "line_numbers": [
+        57,
+        62
+      ],
+      "cwe": [
+        "CWE-362"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}

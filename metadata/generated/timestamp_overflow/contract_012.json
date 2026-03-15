@@ -1,0 +1,35 @@
+{
+  "contract_id": "0xf27436477ef5e2b93d551853422ac1ec8b69d311",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.6.12",
+  "solidity_version": "^0.6.12",
+  "optimization_enabled": false,
+  "optimization_runs": 200,
+  "protocol_type": "Vault",
+  "protocol_name": "ZetaTreasury",
+  "total_value_locked_usd": 36305993,
+  "deployment_date": "2024-09-25",
+  "audit_status": "Certik_2023",
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "timestamp_overflow",
+      "severity": "low",
+      "confidence": 0.78,
+      "line_numbers": [
+        23,
+        37
+      ],
+      "cwe": [
+        "CWE-190"
+      ],
+      "swc": [
+        "SWC-116",
+        "SWC-101"
+      ]
+    }
+  }
+}

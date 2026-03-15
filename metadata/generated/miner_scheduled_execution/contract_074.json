@@ -1,0 +1,34 @@
+{
+  "contract_id": "0x9c75a735f29c237b8e470a5bc3b6b024c9bd4d6b",
+  "collection_source": "ai_generated",
+  "compiler_version": "0.8.10",
+  "solidity_version": "^0.8.10",
+  "optimization_enabled": false,
+  "optimization_runs": 1000,
+  "protocol_type": "Insurance",
+  "protocol_name": "NovaCover",
+  "total_value_locked_usd": 47878976,
+  "deployment_date": "2019-05-21",
+  "audit_status": "Peckshield_2024",
+  "exploit_history": {
+    "exploited": false
+  },
+  "vulnerability_labels": {
+    "timestamp_dependence": {
+      "present": true,
+      "subtype": "miner_scheduled_execution",
+      "severity": "medium",
+      "confidence": 0.79,
+      "line_numbers": [
+        19,
+        30
+      ],
+      "cwe": [
+        "CWE-829"
+      ],
+      "swc": [
+        "SWC-116"
+      ]
+    }
+  }
+}
